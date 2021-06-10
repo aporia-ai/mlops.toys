@@ -1,0 +1,59 @@
+{
+  "name": "mlops.toys",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint:js": "eslint --ext \".js,.vue\" --ignore-path .gitignore .",
+    "lint:style": "stylelint \"**/*.{vue,css}\" --ignore-path .gitignore",
+    "lint": "yarn lint:js && yarn lint:style"
+  },
+  "lint-staged": {
+    "*.{js,vue}": "eslint",
+    "*.{css,vue}": "stylelint"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.13.1",
+    "@nuxtjs/markdownit": "^2.0.0",
+    "@nuxtjs/pwa": "^3.3.5",
+    "@nuxtjs/svg-sprite": "^0.5.2",
+    "@octokit/auth-app": "^3.4.0",
+    "@octokit/rest": "^18.5.3",
+    "@tailwindcss/aspect-ratio": "^0.2.0",
+    "core-js": "^3.9.1",
+    "gsap": "^3.6.1",
+    "js-yaml": "^4.1.0",
+    "lodash": "^4.17.21",
+    "node-sass": "^5.0.0",
+    "nuxt": "^2.15.3",
+    "raw-loader": "^4.0.2",
+    "sass": "^1.32.11",
+    "sass-loader": "^10.1.1",
+    "shade-blend-color": "^1.0.0",
+    "vue-gtag": "^1.16.1"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^12.0.1",
+    "@commitlint/config-conventional": "^12.0.1",
+    "@nuxtjs/eslint-config": "^6.0.0",
+    "@nuxtjs/eslint-module": "^3.0.2",
+    "@nuxtjs/stylelint-module": "^4.0.0",
+    "@nuxtjs/tailwindcss": "^4.0.1",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.22.0",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-nuxt": "^2.0.0",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-vue": "^7.7.0",
+    "husky": "^4.3.8",
+    "lint-staged": "^10.5.4",
+    "postcss": "^8.2.8",
+    "prettier": "^2.2.1",
+    "stylelint": "^13.12.0",
+    "stylelint-config-prettier": "^8.0.2",
+    "stylelint-config-standard": "^21.0.0"
+  }
+}

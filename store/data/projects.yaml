@@ -1,0 +1,728 @@
+- name: Determined
+  buttonText: Try Determined
+  link: 'https://determined.ai/'
+  category: Training Orchestration
+  description: >-
+    Determined is an open-source deep learning training platform that makes
+    building models fast and easy.
+
+
+    - Train models faster using state-of-the-art distributed training, without
+    changing your model code
+
+    - Automatically find high-quality models with advanced hyperparameter tuning
+    from the creators of Hyperband
+
+    - Get more from your GPUs with smart scheduling and cut cloud GPU costs by
+    seamlessly using preemptible instances
+
+    - Track and reproduce your work with experiment tracking that works
+    out-of-the-box, covering code versions, metrics, checkpoints, and
+    hyperparameters
+
+
+    Determined integrates these features into an easy-to-use, high-performance
+    deep learning environment — which means you can spend your time building
+    models instead of managing infrastructure.
+  logo: /images/projects/determined.svg
+  introLogoVisible: true
+  gitHubRepoName: determined-ai/determined
+  youTubeVideoId: YsEE-eiWkeE
+- name: Flyte
+  buttonText: Try Flyte
+  link: 'https://flyte.org/'
+  category: Training Orchestration
+  description: >-
+    Flyte makes it easy to create concurrent, scalable, and maintainable
+    workflows for machine learning and data processing.
+
+    - Kubernetes-Native Workflow Automation Platform
+
+    - Ergonomic SDK's in Python, Java & Scala
+
+    - Versioned & Auditable
+
+    - Reproducible Pipelines
+
+    - Strong Data Typing
+  logo: /images/projects/flyte.svg
+  introLogoVisible: true
+  gitHubRepoName: flyteorg/flyte
+  youTubeVideoId: 1BjXC5TZAiI
+- name: Kubeflow
+  buttonText: Try Kubeflow
+  link: 'https://www.kubeflow.org/'
+  category: Training Orchestration
+  description: >-
+    The Kubeflow project is dedicated to making deployments of machine learning
+    (ML) workflows on Kubernetes simple, portable and scalable.
+
+
+    Kubeflow's goal is not to recreate other services, but to provide a straightforward way to deploy
+    best-of-breed open-source systems for ML to diverse infrastructures.
+
+
+    Anywhere you are running Kubernetes, you should be able to run Kubeflow.
+  logo: /images/projects/kubeflow.svg
+  introLogoVisible: true
+  gitHubRepoName: kubeflow/kubeflow
+  youTubeVideoId: cTZArDgbIWw
+- name: OpenPAI
+  buttonText: Try OpenPAI
+  link: 'https://openpai.readthedocs.io/'
+  category: Training Orchestration
+  description: >-
+    OpenPAI is an open-source platform that provides complete AI model training
+    and resource management capabilities, it is easy to extend and supports
+    on-premise, cloud, and hybrid environments on various scales.
+  logo: /images/projects/pai.svg
+  introLogoVisible: true
+  gitHubRepoName: Microsoft/pai
+  youTubeVideoId: C9eRaqqAOeY
+- name: Butterfree
+  buttonText: Try Butterfree
+  link: 'https://github.com/quintoandar/butterfree'
+  category: Feature Store
+  description: >-
+    A tool for building feature stores. Transform your raw data into beautiful
+    features.
+
+
+    The library is centered on the following concetps:
+
+    - ETL: central framework to create data pipelines. Spark-based Extract, Transform and Load modules ready to use.
+
+    - Declarative Feature Engineering: care about what you want to compute and not how to code it.
+
+    - Feature Store Modeling: the library easily provides everything you need to process and load data to your Feature Store.
+
+  logo: /images/projects/quintoandar.svg
+  introLogoVisible: true
+  gitHubRepoName: quintoandar/butterfree
+- name: Feast
+  buttonText: Try Feast
+  link: 'https://feast.dev/'
+  category: Feature Store
+  competesWith:
+  - [Hopsworks]
+  description: >-
+    Feast is an operational data system for managing and serving machine learning features to models in production.
+
+    - Feast decouples your models from your data infrastructure by providing a single data access layer that abstracts feature storage from feature retrieval.
+
+    - Feast provides both a centralized registry to which data scientists can publish features, and a battle-hardened serving layer. Together, these enable non-engineering teams to ship features into production with minimal oversight.
+
+    - Feast solves the challenge of data leakage by providing point-in-time correct feature retrieval when exporting feature datasets for model training.
+
+    - With Feast, data scientists can start new ML projects by selecting previously engineered features from a centralized registry, and are no longer required to develop new features for each project.
+  logo: /images/projects/feast.svg
+  introLogoVisible: true
+  gitHubRepoName: feast-dev/feast
+  youTubeVideoId: DaNv-Wf1MBA
+- name: Hopsworks
+  buttonText: Try Hopsworks
+  link: 'https://www.hopsworks.ai/'
+  category: Feature Store
+  competesWith:
+  - [Tecton]
+  - [Feast]
+  description: >-
+    The Hopsworks Feature Store manages your features for training and serving models.
+
+    - Provides scale-out storage for training and batch inference as well as low-latency storage for online applications that need to build feature vectors to make real-time predictions.
+
+    - Provides Python and Java/Scala APIs to enable Batch and Online applications manage and use features for machine learning.
+
+    - Integrates seamlessly with popular platforms for Data Science, such as AWS Sagemaker and Databricks. It also integrates with backend datalakes, such as S3 and Hadoop.
+
+    - Supports both cloud and on-prem deployments.
+  logo: /images/projects/hopsworks.svg
+  introLogoVisible: true
+  gitHubRepoName: logicalclocks/hopsworks
+  youTubeVideoId: uVBeoeENEcI
+- name: MLFlow
+  buttonText: Try MLFlow
+  link: 'https://mlflow.org/'
+  category: Experiment Tracking
+  description: >-
+    MLflow is a platform to streamline machine learning development, including
+    tracking experiments, packaging code into reproducible runs, and sharing and
+    deploying models.
+
+
+    It offers a set of lightweight APIs that can be used with any existing machine learning application or library (TensorFlow, PyTorch, XGBoost, etc),
+    wherever you currently run ML code (e.g your notebook)
+
+
+    Features:
+
+
+    - **MLflow Tracking:** An API to log parameters, code, and results in machine learning experiments and compare them using an interactive UI.
+
+    - **MLflow Projects:** A code packaging format for reproducible runs using Conda and Docker, so you can share your ML code with others.
+
+    - **MLflow Models:** A model packaging format and tools that let you easily deploy the same model (from any ML library) to batch and real-time scoring on platforms such as Docker, Apache Spark, Azure ML and AWS SageMaker.
+
+    - **MLflow Model Registry:** A centralized model store, set of APIs, and UI, to collaboratively manage the full lifecycle of MLflow Models.
+  logo: /images/projects/mlflow.svg
+  introLogoVisible: true
+  gitHubRepoName: mlflow/mlflow
+  youTubeVideoId: VokAGy8C6K4
+- name: DVC
+  buttonText: Try DVC
+  link: 'https://dvc.org/'
+  category: Data Versioning
+  description: >-
+    DVC is an open-source tool for data science and machine learning projects.
+
+
+    Key features:
+
+
+    1. Simple command line Git-like experience. Does not require installing and
+    maintaining any databases. Does not depend on any proprietary online
+    services.
+
+    2. Management and versioning of datasets and machine learning models. Data
+    is saved in S3, Google cloud, Azure, Alibaba cloud, SSH server, HDFS, or
+    even local HDD RAID.
+
+    3. Makes projects reproducible and shareable; helping to answer questions
+    about how a model was built.
+
+    4. Helps manage experiments with Git tags/branches and metrics tracking.
+
+
+    DVC aims to replace spreadsheet and document sharing tools (such as Excel or
+    Google Docs) which are being used frequently as both knowledge repositories
+    and team ledgers. DVC also replaces both ad-hoc scripts to track, move, and
+    deploy different model versions; as well as ad-hoc data file suffixes and
+    prefixes.
+  logo: /images/projects/dvc.svg
+  introLogoVisible: true
+  gitHubRepoName: iterative/dvc
+- name: Pachyderm
+  buttonText: Try Pachyderm
+  link: 'https://www.pachyderm.com/'
+  category: Data Versioning
+  description: >-
+    Pachyderm is a tool for version-controlled, automated, end-to-end data
+    pipelines for data science.
+
+
+    Features:
+
+
+    - **Containerized**: Pachyderm is built on Docker and Kubernetes. Whatever languages or libraries your pipeline needs, they can run on Pachyderm which can easily be deployed on any cloud provider or on prem.
+
+    - **Version Control**: Pachyderm version controls your data as it's processed. You can always ask the system how data has changed, see a diff, and, if something doesn't look right, revert.
+
+    - **Provenance** (aka data lineage): Pachyderm tracks where data comes from. Pachyderm keeps track of all the code and data that created a result.
+
+    - **Parallelization**: Pachyderm can efficiently schedule massively parallel workloads.
+
+    - **Incremental Processing**: Pachyderm understands how your data has changed and is smart enough to only process the new data.
+  logo: /images/projects/pachyderm.svg
+  introLogoVisible: true
+  gitHubRepoName: pachyderm/pachyderm
+  youTubeVideoId: r9CrtAtuJDI
+- name: Weights & Biases
+  buttonText: Try Weights & Biases
+  link: 'https://wandb.ai/'
+  category: Experiment Tracking
+  description: >-
+    Track and visualize all the pieces of your machine learning pipeline, from datasets to production models.
+
+
+    - Quickly identify model regressions. Use W&B to visualize results in real time, all in a central dashboard.
+
+    - Focus on the interesting ML. Spend less time manually tracking results in spreadsheets and text files.
+
+    - Capture dataset versions with W&B Artifacts to identify how changing data affects your resulting models.
+
+    - Reproduce any model, with saved code, hyperparameters, launch commands, input data, and resulting model weights.
+  logo: /images/projects/wandb.png
+  introLogoVisible: true
+  gitHubRepoName: wandb/client
+  youTubeVideoId: 91HhNtmb0B4
+- name: Aim
+  buttonText: Try Aim
+  link: 'https://aimstack.io/'
+  category: Experiment Tracking
+  description: >-
+    Compare 1000s of AI experiments at once.
+
+
+    - **Open-source**: Community-driven. Self-hosted and full metadata access.
+
+    - **Explore & Compare**: Easily search, group and aggregate metrics by any hyperparameter.
+
+    - **Dashboard**: Activity view and full experiments dashboard for all experiments.
+  logo: /images/projects/aim.png
+  introLogoVisible: true
+  gitHubRepoName: aimhubio/aim
+- name: ClearML
+  buttonText: Try ClearML
+  link: 'https://clear.ml/'
+  category: Experiment Tracking
+  description: >-
+
+    ClearML is an open source suite of tools that automates preparing, executing, and
+    analyzing machine learning experiments.
+
+
+    Features:
+
+
+    - **ClearML Experiment:** A complete experiment management toolset. Keep track of parameters, jobs, artifacts, metrics, debug data, metadata, and log it all in one clear interface.
+
+    - **ClearML Orchestrate:** The easiest way to manage scheduling and orchestration for GPU / CPU resources and to auto-scale on cloud & on-prem machines. Replicate your dev environment for training anywhere or develop on remote VMs.
+
+    - **ClearML Feature Store:** Data analysis versioning & lineage for full reproducibility. Build and automate data pipelines for R&D and production. Rebalance, debias and mix & match datasets for fine grain control of your data.
+  logo: /images/projects/clearml.svg
+  introLogoVisible: true
+  gitHubRepoName: allegroai/clearml
+  youTubeVideoId: Y5tPfUm9Ghg
+- name: CML
+  buttonText: Try CML
+  link: 'http://cml.dev/'
+  category: Experiment Tracking
+  description: >-
+    Open-source library for implementing CI/CD in machine learning projects.
+
+
+    On every pull request, CML helps you automatically train and evaluate models, then generates a visual report with results and metrics.
+
+    - **GitFlow for data science.** Use GitLab or GitHub to manage ML experiments, track who trained ML models or modified data and when. Codify data and models with DVC instead of pushing to a Git repo.
+
+    - **Auto reports for ML experiments.** Auto-generate reports with metrics and plots in each Git Pull Request. Rigorous engineering practices help your team make informed, data-driven decisions.
+
+    - **No additional services.** Build your own ML platform using just GitHub or GitLab and your favourite cloud services: AWS, Azure, GCP. No databases, services or complex setup needed.
+  logo: /images/projects/cml.png
+  introLogoVisible: true
+  gitHubRepoName: iterative/cml
+  youTubeVideoId: 9BgIDqAzfuA
+- name: BentoML
+  buttonText: Try BentoML
+  link: 'https://bentoml.org/'
+  category: Model Serving
+  worksWellWith:
+  - [AWS Lambda]
+  - [Azure Functions]
+  - [Google Cloud Run]
+  description: >2-
+    BentoML is a flexible, high-performance framework for serving, managing, and deploying machine learning models.
+
+    - Supports multiple ML frameworks, including Tensorflow, PyTorch, Keras,
+    XGBoost and more
+
+    - Cloud native deployment with Docker, Kubernetes, AWS, Azure and many more
+
+    - High-Performance online API serving and offline batch serving
+
+    - Web dashboards and APIs for model registry and deployment management
+
+
+    BentoML tries to bridge the gap between Data Science and DevOps. By providing a
+    standard interface for describing a prediction service, BentoML abstracts
+    away how to run model inference efficiently and how model serving workloads
+    can integrate with cloud infrastructures.
+  competesWith:
+    - [Seldon Core, to some extent]
+    - [KFServing, to some extent]
+  logo: /images/projects/bentoml.svg
+  introLogoVisible: true
+  gitHubRepoName: bentoml/BentoML
+- name: Cortex
+  buttonText: Try Cortex
+  link: 'https://cortex.dev/'
+  category: Model Serving
+  description: >-
+    Cortex makes it simple to deploy machine learning models in production.
+
+
+    **Deploy**
+
+    - Deploy TensorFlow, PyTorch, ONNX, scikit-learn, and other models.
+
+    - Define preprocessing and postprocessing steps in Python.
+
+    - Configure AP/Is as realtime or batch.
+
+    - Deploy multiple models per API.
+
+
+    **Manage**
+
+    - Monitor API performance and track predictions.
+
+    - Update APIs with no downtime.
+
+    - Stream logs from APIs.
+
+    - Perform A/B tests.
+
+
+    **Scale**
+
+    - Test locally, scale on your AWS account.
+
+    - Autoscale to handle production traffic.
+
+    - Reduce cost with spot instances.
+  logo: /images/projects/cortex.svg
+  introLogoVisible: true
+  gitHubRepoName: cortexlabs/cortex
+- name: KFServing
+  buttonText: Try KFServing
+  link: 'https://github.com/kubeflow/kfserving'
+  category: Model Serving
+  competesWith:
+    - [Seldon Core]
+    - [BentoML, to some extent]
+  description: >-
+    KFServing enables serverless inferencing on Kubernetes to solve production model serving use cases.
+
+
+    - Provides performant, high abstraction interfaces for common ML frameworks like TensorFlow, XGBoost, scikit-learn, PyTorch, and ONNX.
+
+    - Provides a Kubernetes Custom Resource Definition (CRD) for serving ML models.
+
+    - Encapsulate the complexity of autoscaling, networking, health checking, and server configuration to bring cutting edge serving features like GPU autoscaling, scale to zero, and canary rollouts to your ML deployments.
+
+    - Enable a simple, pluggable, and complete story for your production ML inference server by providing prediction, pre-processing, post-processing and explainability out of the box.
+
+  logo: /images/projects/kubeflow.svg
+  introLogoVisible: true
+  gitHubRepoName: kubeflow/kfserving
+  youTubeVideoId: lj_X2ND2BBI
+- name: Triton Inference Server
+  buttonText: Try Triton
+  link: 'https://developer.nvidia.com/nvidia-triton-inference-server'
+  category: Model Serving
+  worksWellWith:
+  - [Azure ML]
+  - [Google CAIP]
+  description: >-
+    Triton Inference Server simplifies the deployment of AI models at scale in production.
+
+
+    - Supports TensorFlow, TensorRT, PyTorch, ONNX Runtime, and custom framework backends.
+
+    - Triton runs models concurrently on GPUs to maximize utilization, supports CPU-based inferencing, and offers advanced features like model ensemble and streaming inferencing.
+
+    - Available as a Docker container, Triton integrates with Kubernetes for orchestration and scaling.
+
+    - Can be used with cloud AI platforms like Azure ML and Google CAIP.
+
+    - Triton exports Prometheus metrics for monitoring.
+  logo: /images/projects/nvidia.svg
+  introLogoVisible: true
+  gitHubRepoName: triton-inference-server/server
+  youTubeVideoId: 1DUqD3zMwB4
+  competesWith:
+    - [Tensorflow Serving]
+    - [TorchServe]
+- name: Seldon Core
+  buttonText: Try Seldon Core
+  link: 'https://www.seldon.io/tech/products/core/'
+  category: Model Serving
+  competesWith:
+    - [KFServing]
+    - [BentoML, to some extent]
+  description: >-
+    Seldon Core makes it easier and faster to deploy your machine learning models and experiments at scale on Kubernetes.
+
+
+    - **Runs anywhere**: Built on Kubernetes, runs on any cloud and on premises
+
+    - **Agnostic and independent**: Framework agnostic, supports top ML libraries, toolkits and languages
+
+    - **Runtime inference graphs**: Advanced deployments with experiments, ensembles and transformers
+
+
+    Seldon handles scaling to thousands of production machine learning models
+    and provides advanced machine learning capabilities out of the box including
+    Advanced Metrics, Request Logging, Explainers, Outlier Detectors, A/B Tests,
+    Canaries and more.
+  logo: /images/projects/seldoncore.svg
+  introLogoVisible: true
+  gitHubRepoName: SeldonIO/seldon-core
+  youTubeVideoId: Xildxp_CsmA
+- name: Tensorflow Serving
+  buttonText: Try Tensorflow Serving
+  link: https://github.com/tensorflow/serving
+  category: Model Serving
+  competesWith:
+    - [Triton Inference Server]
+  description: >-
+    TensorFlow Serving is a flexible, high-performance serving system for TF models, designed for production environments.
+
+
+    - Can serve multiple models, or multiple versions of the same model simultaneously.
+
+    - Exposes both gRPC as well as HTTP inference endpoints.
+
+    - Allows deployment of new model versions without changing any client code.
+
+    - Supports canarying new versions and A/B testing experimental models.
+
+    - Adds minimal latency to inference time due to efficient, low-overhead implementation.
+  logo: /images/projects/tensorflow.svg
+  introLogoVisible: true
+  gitHubRepoName: tensorflow/serving
+  youTubeVideoId: q_IkJcPyNl0
+- name: TorchServe
+  buttonText: Try TorchServe
+  link: 'https://pytorch.org/serve/'
+  category: Model Serving
+  competesWith:
+    - [Triton Inference Server]
+  description: >-
+    TorchServe is a flexible and easy to use tool for serving PyTorch models.
+
+
+    - With TorchServe, PyTorch users can bring their models to production quicker, without having to write custom code: on top of providing a low latency prediction API, TorchServe embeds default handlers for the most common applications such as object detection and text classification.
+
+    - TorchServe includes multi-model serving, model versioning for A/B testing, monitoring metrics, and RESTful endpoints for application integration.
+
+    - TorchServe supports any machine learning environment, including Amazon SageMaker, container services, and Amazon Elastic Compute Cloud (EC2).
+  logo: /images/projects/pytorch.svg
+  introLogoVisible: true
+  gitHubRepoName: pytorch/pytorch
+  youTubeVideoId: 9lMMCwVhPpo
+- name: Aporia
+  buttonText: Try Aporia
+  link: 'https://aporia.com/'
+  category: Model Monitoring
+  description: >-
+    With Aporia data scientists and ML engineers can easily build monitoring for their ML models running in production.
+
+    
+    Features:
+
+    - **Build your own monitors**: Easily define monitoring logic.
+    
+    - **Concept drift & Data integrity detections**: Built-in monitors and alerts for prediction drift, data drift, data integrity issues and more.
+
+    - **Runs on your VPC**: Natively supports on-prem and cloud deployments.
+
+    - **User-friendly & flexible**: A simple, intuitive dashboard for all your models in production.
+
+    - **Data segments**: Define & monitor slices of data based on selected features.
+  logo: /images/projects/aporia-logo.svg
+  introLogoVisible: true
+  youTubeVideoId: 9oyZDXrmWMA
+- name: Evidently AI
+  buttonText: Try Evidently AI
+  link: 'https://evidentlyai.com/'
+  category: Model Monitoring
+  description: >-
+    Evidently helps analyze machine learning models during validation or production monitoring. It generates interactive reports from pandas DataFramesor csv files.
+
+
+    Features:
+
+    - **Model Health:** Quickly visualize model performance and important metrics. Get a prioritized list of issues to debug.
+
+    - **Data Drift:** Compare recent data with the past. Learn which features changed and if key models drivers shifted. Visually explore and understand drift.
+
+    - **Target Drift:** Understand how model predictions and target change over time. If the ground truth is delayed, catch the model decay in advance.
+  logo: /images/projects/evidentlyai.ico
+  introLogoVisible: true
+  youTubeVideoId: 2suSzXlY_7Y
+- name: Deepchecks
+  buttonText: Try Deepchecks
+  link: 'https://deepchecks.com/'
+  category: Model Monitoring
+  description: >-
+    Validate and monitor your data and models during training, production and new version releases.
+
+
+    Features:
+
+
+    - ML Validation of training data and ML model
+
+    - Observability of ML in production
+
+    - Alerting about various issues in live ML systems
+
+    - Detecting Mismatches between research and production environments
+
+    - Quick Querying of problematic production data
+  logo: /images/projects/deepchecks.png
+  introLogoVisible: true
+- name: ELI5
+  buttonText: Try ELI5
+  link: 'https://github.com/TeamHG-Memex/eli5'
+  category: Explainability
+  description: >-
+    ELI5 is a Python library which allows to visualize and debug various Machine
+    Learning models using unified API. It has built-in support for several ML
+    frameworks and provides a way to explain black-box models.
+  logo: /images/projects/teamhg.svg
+  introLogoVisible: true
+  gitHubRepoName: TeamHG-Memex/eli5
+  youTubeVideoId: s-yT5Is1G1A
+- name: InterpretML
+  buttonText: Try InterpretML
+  link: 'https://interpret.ml/'
+  category: Explainability
+  description: >-
+    InterpretML is an open-source package that incorporates state-of-the-art
+    machine learning interpretability techniques under one roof. With this
+    package, you can train interpretable glassbox models and explain blackbox
+    systems. InterpretML helps you understand your model's global behavior, or
+    understand the reasons behind individual predictions.
+
+
+    Interpretability is essential for:
+
+
+    - Model debugging - Why did my model make this mistake?
+
+    - Feature Engineering - How can I improve my model?
+
+    - Detecting fairness issues - Does my model discriminate?
+
+    - Human-AI cooperation - How can I understand and trust the model's
+    decisions?
+
+    - Regulatory compliance - Does my model satisfy legal requirements?
+
+    - High-risk applications - Healthcare, finance, judicial, ...
+  logo: /images/projects/interpretml.svg
+  introLogoVisible: true
+  gitHubRepoName: interpretml/interpret
+  youTubeVideoId: WwBeKMQ0-I8
+- name: Lime
+  buttonText: Try Lime
+  link: 'https://github.com/marcotcr/lime'
+  category: Explainability
+  description: >-
+    This project is about explaining what machine learning classifiers (or
+    models) are doing. At the moment, we support explaining individual
+    predictions for text classifiers or classifiers that act on tables (numpy
+    arrays of numerical or categorical data) or images, with a package called
+    lime (short for local interpretable model-agnostic explanations). Lime is
+    based on the work presented in this paper (bibtex here for citation).
+  introLogoVisible: false
+  gitHubRepoName: marcotcr/lime
+  youTubeVideoId: hUnRCxnydCc
+- name: SHAP
+  buttonText: Try SHAP
+  link: 'https://github.com/slundberg/shap'
+  category: Explainability
+  description: >-
+    SHAP (SHapley Additive exPlanations) is a game theoretic approach to explain
+    the output of any machine learning model. It connects optimal credit
+    allocation with local explanations using the classic Shapley values from
+    game theory and their related extensions.
+  logo: /images/projects/shap.svg
+  introLogoVisible: true
+  gitHubRepoName: slundberg/shap
+  youTubeVideoId: ylytZegK--I
+- name: Fiddler
+  buttonText: Try Fiddler
+  link: 'https://www.fiddler.ai/'
+  category: Explainability
+  description: >-
+    Continuously monitor, explain, and analyze AI systems at scale. With actionable insights build trustworthy, fair, and responsible AI monitoring.
+
+
+    - Complex AI systems are inherently black boxes with minimal insight into their operation.
+
+    - Explainable AI or XAI makes these AI black boxes more like AI glass-boxes by enabling users to always understand the ‘why’ behind their decisions.
+
+    - Identify, address, and share performance gaps and biases quickly for AI validation and debugging
+  logo: /images/projects/fiddler.png
+  introLogoVisible: true
+  youTubeVideoId: gqnDqrIzabw
+- name: Comet
+  buttonText: Try Comet
+  link: 'https://www.comet.ml/'
+  category: Experiment Tracking
+  description: >-
+    Comet enables data scientists and teams to track, compare, explain and
+    optimize experiments and models across the model’s entire lifecycle. From
+    training to production.
+  logo: /images/projects/cometml.png
+  introLogoVisible: true
+  youTubeVideoId: cX5tx202PXM
+- name: Bytehub
+  buttonText: Try Bytehub
+  link: 'https://www.bytehub.ai/'
+  category: Feature Store
+  description: >-
+    An easy-to-use feature store.
+
+
+    The Bytehub Feature Store is designed to:
+
+
+    - Be simple to use, with a Pandas-like API;
+
+    - Require no complicated infrastructure, running on a local Python
+    installation or in a cloud environment;
+
+    - Be optimised towards timeseries operations, making it highly suited to
+    applications such as those in finance, energy, forecasting; and
+
+    - Support simple time/value data as well as complex structures, e.g.
+    dictionaries.
+
+
+    It is built on Dask to support large datasets and cluster compute
+    environments.
+  introLogoVisible: false
+  gitHubRepoName: bytehub-ai/bytehub
+  youTubeVideoId: ucAlzaJoqeU
+- name: Bodywork
+  buttonText: Try Bodywork
+  link: 'https://github.com/bodywork-ml/bodywork-core/'
+  category: Model Serving
+  description: >-
+    Bodywork deploys machine learning projects developed in Python, to
+    Kubernetes. It helps you:
+
+
+    - serve models as microservices
+
+    - execute batch jobs
+
+    - run reproducible pipelines
+
+
+    On demand, or on a schedule. It automates repetitive DevOps tasks and frees
+    machine learning engineers to focus on what they do best - solving data
+    problems with machine learning.
+  logo: /images/projects/bodywork.png
+  introLogoVisible: true
+  gitHubRepoName: bodywork-ml/bodywork-core/
+- name: Neptune
+  buttonText: Try Neptune
+  link: 'https://neptune.ai/'
+  category: Experiment Tracking
+  description: >-
+    Neptune is a lightweight experiment logging/tracking tool that helps you
+    with your machine learning experiments.
+
+
+    Features:
+
+    - Rich experiment logging and tracking capabilities
+
+    - Python and R clients
+
+    - Experiments dashboards, views and comparison features
+
+    - Team management
+
+    - 25+ integrations with popular data science stack libraries
+
+    - Fast, reliable UI
+  logo: /images/projects/neptune.svg
+  introLogoVisible: true
+  gitHubRepoName: neptune-ai/neptune-client
+  youTubeVideoId: w9S5srkfSI4
