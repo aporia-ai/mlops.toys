@@ -13,7 +13,7 @@
             :href="project.link"
             target="_blank"
             class="block transition-opacity hover:opacity-70"
-            @click.prevent="$gtagEvents.externalLinkClick(project.link)"
+            @click="$gtagEvents.externalLinkClick(project.link)"
           >
             <img
               :src="project.logo || '/images/projects/default.svg'"
@@ -31,7 +31,7 @@
               :href="project.link"
               target="_blank"
               class="link transition-colors"
-              @click.prevent="$gtagEvents.externalLinkClick(project.link)"
+              @click="$gtagEvents.externalLinkClick(project.link)"
               >{{ project.name }}</a
             >
           </h3>
@@ -40,7 +40,7 @@
             :href="`https://github.com/${project.gitHubRepoName}`"
             target="_blank"
             class="github-link inline-flex items-center text-gray-400 align-middle transition-colors my-1"
-            @click.prevent="
+            @click="
               $gtagEvents.externalLinkClick(
                 `https://github.com/${project.gitHubRepoName}`
               )
@@ -142,7 +142,7 @@
       class="block aspect-w-16 aspect-h-9 relative mt-10 lg:mt-6 rounded overflow-hidden group video-block"
       target="_blank"
       :href="`https://www.youtube.com/watch?v=${project.youTubeVideoId}`"
-      @click.prevent="
+      @click="
         $gtagEvents.externalLinkClick(
           `https://www.youtube.com/watch?v=${project.youTubeVideoId}`
         )
@@ -190,7 +190,7 @@
         :href="project.link"
         target="_blank"
         theme="black"
-        @click.prevent="$gtagEvents.externalLinkClick(project.link)"
+        @click="$gtagEvents.externalLinkClick(project.link)"
       >
         {{ project.buttonText }}
       </AppButton>

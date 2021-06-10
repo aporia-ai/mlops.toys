@@ -8,7 +8,7 @@
           :key="linkKey"
           :href="link.href"
           :target="link.target"
-          @click.prevent="$gtagEvents.externalLinkClick(link.href)"
+          @click="$gtagEvents.externalLinkClick(link.href)"
           class="ml-10 lg:ml-6 text-sm lg:text-xs text-gray-400 hover:text-purple-600 transition-colors flex items-center"
         >
           <Icon :name="link.icon" class="w-4 h-4 block mr-3 lg:mr-2" />

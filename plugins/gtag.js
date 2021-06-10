@@ -20,9 +20,6 @@ export default ({ app }) => {
             event_category: 'outbound',
             event_label: url,
             transport_type: 'beacon',
-            event_callback() {
-              window.open(url, '_blank')
-            },
           })
         },
       }

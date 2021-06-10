@@ -17,7 +17,7 @@
               'translate-x-4 opacity-0 pointer-events-none': !$store.state
                 .showLogoInFilters,
             }"
-            @click.prevent="$gtagEvents.externalLinkClick('/')"
+            @click="$gtagEvents.externalLinkClick('/')"
           >
             <Icon name="logo" class="block w-8 h-8 lg:hidden" />
             <div class="ml-4">

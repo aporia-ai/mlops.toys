@@ -38,7 +38,7 @@
             href="https://creativecommons.org/licenses/by-sa/4.0/"
             class="text-gray-600 hover:text-purple-600 transition-colors whitespace-nowrap"
             target="_blank"
-            @click.prevent="
+            @click="
               $gtagEvents.externalLinkClick(
                 'https://creativecommons.org/licenses/by-sa/4.0/'
               )
@@ -59,7 +59,7 @@
           href="https://aporia.com"
           target="_blank"
           class="block transition-opacity hover:opacity-70"
-          @click.prevent="$gtagEvents.externalLinkClick('https://aporia.com')"
+          @click="$gtagEvents.externalLinkClick('https://aporia.com')"
         >
           <img :src="AporiaLogo" alt="Aporia" class="block ml-3 h-8 lg:h-6" />
         </a>
