@@ -79,17 +79,64 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'MLOps.toys: Machine Learning Projects',
+    title: 'MLOps Toys | A Curated List of Machine Learning Projects',
     meta: [
+      // Default
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { name: 'theme-color', content: '#ffffff' },
       { name: 'msapplication-config', content: '/favicons/browserconfig.xml' },
       { name: 'msapplication-TileColor', content: '#48cfad' },
       {
+        'http-equiv': 'Cache-Control',
+        content: 'no-cache, no-store, must-revalidate',
+      },
+      { 'http-equiv': 'Pragma', content: 'no-cache' },
+      { 'http-equiv': 'Expires', content: '0' },
+      // Title
+      {
+        name: 'title',
+        content: 'MLOps Toys | A Curated List of Machine Learning Projects',
+      },
+      {
+        name: 'og:title',
+        content: 'MLOps Toys | A Curated List of Machine Learning Projects',
+      },
+      {
+        name: 'twitter:title',
+        content: 'MLOps Toys | A Curated List of Machine Learning Projects',
+      },
+      // Description
+      {
         hid: 'description',
         name: 'description',
-        content: 'A curated list of MLOps tools and projects',
+        content:
+          'Curated list of MLOps tools, projects and more. Have something to add? Let us know!',
+      },
+      {
+        hid: 'og:description',
+        name: 'og:description',
+        content:
+          'Curated list of MLOps tools, projects and more. Have something to add? Let us know!',
+      },
+      {
+        hid: 'twitter:description',
+        name: 'twitter:description',
+        content:
+          'Curated list of MLOps tools, projects and more. Have something to add? Let us know!',
+      },
+      // Other
+      {
+        name: 'og:type',
+        content: 'website',
+      },
+      {
+        name: 'og:url',
+        content: 'https://mlops.toys',
+      },
+      {
+        name: 'twitter:url',
+        content: 'https://mlops.toys',
       },
       {
         name: 'keywords',
@@ -97,11 +144,19 @@ export default {
           'mlops, mlops tools, machine learning, production machine learning, awesome mlops, awesome machine learning',
       },
       {
-        'http-equiv': 'Cache-Control',
-        content: 'no-cache, no-store, must-revalidate',
+        name: 'og:image',
+        content:
+          'https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png',
       },
-      { 'http-equiv': 'Pragma', content: 'no-cache' },
-      { 'http-equiv': 'Expires', content: '0' },
+      {
+        name: 'twitter:image',
+        content:
+          'https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png',
+      },
+      {
+        name: 'twitter:card',
+        content: 'summary_large_image',
+      },
     ],
     link: [
       {
