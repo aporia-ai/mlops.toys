@@ -770,3 +770,31 @@
   logo: /images/projects/iguazio.png
   introLogoVisible: true
   youTubeVideoId: Fg4PYL7r43U
+- name: Ploomber
+  category: Training Orchestration
+  worksWellWith:
+    - [Kubernetes]
+    - [AWS Batch]
+    - [Airflow]
+  buttonText: Try Ploomber
+  link: https://github.com/ploomber/ploomber
+  description: >-
+    Develop and test workflows locally, seamlessly execute them in a distributed environment.
+
+    Features:
+
+    - **Cloud-agnostic.** Runs in Kubernetes, AWS Batch, and Airflow.
+
+    - **Integrates with Jupyter.** Develop interactively, deploy to the cloud without code changes.
+
+    - **Incremental builds.** Speed up execution by skipping tasks whose source code has not changed.
+
+    - **Flexible.** Supports functions, scripts, notebooks, and SQL scripts as tasks.
+
+    - **Parallelization.** Automatically parallelize independent tasks.
+
+    - **Interactive console.** Helps you debug workflows quickly.
+  logo: /images/projects/ploomber.svg
+  introLogoVisible: true
+  gitHubRepoName: ploomber/ploomber
+  youTubeVideoId: XCgX1AszVF4
