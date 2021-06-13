@@ -1,3 +1,25 @@
+- name: DAGsHub
+  buttonText: Try DAGsHub
+  link: 'https://dagshub.com/'
+  category: Data Versioning
+  description: >-
+    DAGsHub enables data scientists and ML engineers to work together, effectively.
+    Integrating open-source tools like Git, DVC, MLflow, and Jenkins so that you can 
+    track and version code, data, models, pipelines, and experiments in one place.
+
+    - **Your project in one place**: Manage your code, notebooks, data, models, pipelines, and 
+    experiments and easily connect to plugins for automation, all with open source tools and open formats.
+
+    - **Zero configuration**: Don't waste time on DevOps heavy lifting. Each DAGsHub project comes with a free, 
+    built-in DVC data storage and MLflow server, with team access controls, so you can just add the URL, and get to work.
+
+    - **Diff, compare, and review anything**: DAGsHub lets you diff Jupyter notebooks, tables, images, experiments, and even MRI data, 
+    so you can compare apples to apples, review, and make sense of your work.
+
+    - **Reproducibility is a click away**: Get all components of an experiment on your system. It's as easy as `git checkout`.
+  logo: /images/projects/dagshub.svg
+  introLogoVisible: true
+  youTubeVideoId: lrzdqEwzoo8
 - name: Determined
   buttonText: Try Determined
   link: 'https://determined.ai/'
