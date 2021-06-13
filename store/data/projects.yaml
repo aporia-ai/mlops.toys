@@ -1,3 +1,25 @@
+- name: Comet ML
+  buttonText: Try Comet.ml
+  link: 'https://www.comet.ml'
+  category: Experiment Tracking
+  description: >-
+    Build better models faster
+    
+    Comet enables data scientists and teams to track, compare, explain and optimize experiments and models across the model’s entire lifecycle. From training to production. With just two lines of code, you can start building better models today.
+
+    - **Fast Integration**
+      Add a single line of code to your notebook or script and start tracking your experiments. Works wherever you run your code, with any machine learning library, and for any machine learning task.
+    
+    - **Debug. Monitor. Alert.**
+      Monitor your models during every step from training to production. Get alerts when something is amiss, and debug your models to address the issue.
+
+    - **Visualize with panels**
+      Build custom visualizations based on experiments and model data, or use community provided ones. Debug, explain and visualize with no limits.
+
+  logo: /images/projects/cometml.png
+  introLogoVisible: true
+  youTubeVideoId: iYb9UPkymAg
+  gitHubRepoName: https://github.com/comet-ml/comet-examples
 - name: DAGsHub
   buttonText: Try DAGsHub
   link: 'https://dagshub.com/'
@@ -661,17 +683,6 @@
   logo: /images/projects/fiddler.png
   introLogoVisible: true
   youTubeVideoId: gqnDqrIzabw
-- name: Comet
-  buttonText: Try Comet
-  link: 'https://www.comet.ml/'
-  category: Experiment Tracking
-  description: >-
-    Comet enables data scientists and teams to track, compare, explain and
-    optimize experiments and models across the model’s entire lifecycle. From
-    training to production.
-  logo: /images/projects/cometml.png
-  introLogoVisible: true
-  youTubeVideoId: cX5tx202PXM
 - name: Bytehub
   buttonText: Try Bytehub
   link: 'https://www.bytehub.ai/'
