@@ -869,3 +869,20 @@
   logo: /images/projects/sagify.png
   introLogoVisible: true
   gitHubRepoName: Kenza-AI/sagify
+- name: Valohai
+  buttonText: Try Valohai
+  link: 'https://valohai.com/'
+  category: Training Orchestration
+  description: >-
+    Valohai is an MLOps platform that handles machine orchestration, automatic reproducibility and deployment.
+
+    - **Technology agnostic:** Valohai runs everything in Docker containers so that you can run almost anything on it.
+
+    - **Runs on any cloud:** Valohai natively supports Azure, AWS, GCP and OpenStack.
+
+    - **API, CLI, GUI and Jupyter integration:** Valohai integrates to almost any workflow through its many interfaces.
+
+    - **Managed service:** Seasoned DevOps engineers manage Valohai – so you don’t have to be one.
+  logo: /images/projects/valohai.svg
+  introLogoVisible: true
+  youTubeVideoId: jnrSd2nqCWg
