@@ -4,16 +4,16 @@
   category: Data Versioning
   description: >-
     DAGsHub enables data scientists and ML engineers to work together, effectively.
-    Integrating open-source tools like Git, DVC, MLflow, and Jenkins so that you can 
+    Integrating open-source tools like Git, DVC, MLflow, and Jenkins so that you can
     track and version code, data, models, pipelines, and experiments in one place.
 
-    - **Your project in one place**: Manage your code, notebooks, data, models, pipelines, and 
+    - **Your project in one place**: Manage your code, notebooks, data, models, pipelines, and
     experiments and easily connect to plugins for automation, all with open source tools and open formats.
 
-    - **Zero configuration**: Don't waste time on DevOps heavy lifting. Each DAGsHub project comes with a free, 
+    - **Zero configuration**: Don't waste time on DevOps heavy lifting. Each DAGsHub project comes with a free,
     built-in DVC data storage and MLflow server, with team access controls, so you can just add the URL, and get to work.
 
-    - **Diff, compare, and review anything**: DAGsHub lets you diff Jupyter notebooks, tables, images, experiments, and even MRI data, 
+    - **Diff, compare, and review anything**: DAGsHub lets you diff Jupyter notebooks, tables, images, experiments, and even MRI data,
     so you can compare apples to apples, review, and make sense of your work.
 
     - **Reproducibility is a click away**: Get all components of an experiment on your system. It's as easy as `git checkout`.
@@ -520,11 +520,11 @@
   description: >-
     With Aporia data scientists and ML engineers can easily build monitoring for their ML models running in production.
 
-    
+
     Features:
 
     - **Build your own monitors**: Easily define monitoring logic.
-    
+
     - **Concept drift & Data integrity detections**: Built-in monitors and alerts for prediction drift, data drift, data integrity issues and more.
 
     - **Runs on your VPC**: Natively supports on-prem and cloud deployments.
@@ -748,3 +748,25 @@
   introLogoVisible: true
   gitHubRepoName: neptune-ai/neptune-client
   youTubeVideoId: w9S5srkfSI4
+- name: Iguazio Data Science Platform
+  buttonText: Try Iguazio
+  link: 'https://www.iguazio.com/'
+  category: Experiment Tracking
+  description: >-
+    The Iguazio Data Science Platform accelerates and scales development, deployment and management of your AI
+    applications with MLOps and end-to-end automation of machine learning pipelines.
+
+    - **Ingest Data from Any Source and Build Reusable  Online and Offline Features:** Ingest and unify unstructured
+    and structured data in real-time and create online and offline features using Iguazio’s Integrated Feature Store.
+
+    - **Continuously Train and Evaluate Models at Scale:** Run experimentation over scalable serverless ML/DL runtimes
+    with automated tracking, data versioning, and continuous integration/delivery (CI/CD) support.
+
+    - **Deploy Models to Production  in Seconds:** Deploy models and APIs from a Jupyter notebook or IDE to production
+    in just a few clicks and continuously monitor model performance and mitigate model drift.
+
+    - **Monitor Your Models and Data  on the Fly:** Manage, govern and monitor your models and real-time features
+    in production with a simple dashboard integrated with Iguazio’s Feature Store.
+  logo: /images/projects/iguazio.png
+  introLogoVisible: true
+  youTubeVideoId: Fg4PYL7r43U
