@@ -780,18 +780,18 @@
     the development of machine learning pipelines at scale and helps ML teams build a robust process for moving
     from the research phase to fully operational production deployments.
 
-    Features:
-      - **Feature and Artifact Store:** Handles the ingestion, processing, metadata, and storage of data and features
-      across multiple repositories and technologies.
+    - **Feature and Artifact Store:** Handles the ingestion, processing, metadata, and storage of data and features
+    across multiple repositories and technologies.
 
-      - **Elastic Serverless Runtimes:** Converts simple code to scalable and managed microservices with
-      workload-specific runtime engines (such as Kubernetes jobs, Nuclio, Dask, Spark, and Horovod).
+    - **Elastic Serverless Runtimes:** Converts simple code to scalable and managed microservices with
+    workload-specific runtime engines (such as Kubernetes jobs, Nuclio, Dask, Spark, and Horovod).
 
-      - **ML Pipeline Automation:** Automates data preparation, model training and testing, deployment of real-time
-      production pipelines, and end-to-end monitoring.
+    - **ML Pipeline Automation:** Automates data preparation, model training and testing, deployment of real-time
+    production pipelines, and end-to-end monitoring.
 
-      - **Central Management:** Provides a unified portal for managing the entire MLOps workflow. The portal
-      includes a UI, a CLI, and an SDK, which are accessible from anywhere.
+    - **Central Management:** Provides a unified portal for managing the entire MLOps workflow. The portal
+    includes a UI, a CLI, and an SDK, which are accessible from anywhere.
+
   logo: /images/projects/mlrun.png
   introLogoVisible: true
   gitHubRepoName: mlrun/mlrun
