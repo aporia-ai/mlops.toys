@@ -20,6 +20,28 @@
   logo: /images/projects/dagshub.svg
   introLogoVisible: true
   youTubeVideoId: lrzdqEwzoo8
+- name: Katonic.ai
+  buttonText: Try Katonic
+  link: 'https://katonic.ai/'
+  category: Experiment Tracking
+  description: >-
+    Katonic was founded in April 2020 with an the vision of building a Data Science Platform for the masses that
+     Netflix, Airbnb, Uber, Google and the rest of the big players had been building internally for years
+
+    - We believe that there are a lot of open source slim solutions that solve specific problems very well over big
+     suites of tools and big platform solutions and hence have stiched them to geather to offer an end to end Open enterprise MLOps Solution.
+
+    - Katonic’s aim is to bring MLOps for enterprises that can’t afford to invest years into a platform and instead want to hit the 
+    ML ground running.
+
+    - We believe that data scientists should be empowered to take solutions, ideas and experiments all the way from raw data to production,
+     while having minimal exposure to lower-level infrastructure components.
+
+    - Data scientists should spend their time processing and analyzing data and writing code, not fighting with project environments, containers, 
+    and cloud infrastructure..
+  logo: /images/projects/katonic.png
+  introLogoVisible: true
+  youTubeVideoId: i_IiDUNOZ5g
 - name: Determined
   buttonText: Try Determined
   link: 'https://determined.ai/'
