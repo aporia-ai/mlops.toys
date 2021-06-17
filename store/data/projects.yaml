@@ -6,11 +6,18 @@
     PrimeHub, a Kubernetes-based collaborative ML platform for teams of data scientists and administrators.
 
     - Cluster Computing with multi-tenancy
+
     - One-Click Notebook Environments
+
     - Group-centric Datasets Management / Resources Management / Access-control Management
+
     - Custom Machine Learning Environments with Image Builder
+
     - Model Tracking and Deployment
+
     - Capability Augmentation with 3rd-party Apps Store
+
+
 
     It equips administrators with group-centric managements and eases MLOps for data scientists with pluggable capabilities.
   logo: /images/projects/primehub.png
