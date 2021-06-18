@@ -796,3 +796,27 @@
   introLogoVisible: true
   gitHubRepoName: mlrun/mlrun
   youTubeVideoId: _3mxz3zMPpw
+
+- name: Inferrd
+  buttonText: Try Inferrd
+  link: 'https://inferrd.com/'
+  category: Model Serving
+  description: >-
+    Inferrd is the easiest model serving platform with built-in auto-scaling and monitoring. 
+    Install our SDK and get started in less than 2 minutes.
+
+    - **Deploy in 2 minutes:** Drag and drop your saved model or install our SDK to deploy
+    TensorFlow, PyTorch, SkLearn, spaCy or XGBoost in 2 minutes.
+
+    - **Drift Monitoring:** Inferrd automatically detects all your inputs/outputs and track their
+    distribution over time. We'll alert you in their distribution drifts too much.
+
+    - **Auto scaling:** Select how many requests you need and we'll make sure to scale your model
+    to meet your needs.
+
+    - **Request Tracing:** Inspect every single requests that is served by Inferrd in your personal
+    dashboard.
+
+  logo: /images/projects/inferrd.png
+  introLogoVisible: true
+  youTubeVideoId: eyTMyKkMpDQ
