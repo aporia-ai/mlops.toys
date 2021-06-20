@@ -798,3 +798,29 @@
   introLogoVisible: true
   gitHubRepoName: ploomber/ploomber
   youTubeVideoId: XCgX1AszVF4
+- name: MLRun
+  buttonText: Try MLRun
+  link: 'https://mlrun.org/'
+  category: Training Orchestration
+  description: >-
+    MLRun is an end-to-end open-source MLOps solution to manage and automate your entire analytics and machine
+    learning lifecycle, from data ingestion, through model development to full pipeline deployment. MLRun eases
+    the development of machine learning pipelines at scale and helps ML teams build a robust process for moving
+    from the research phase to fully operational production deployments.
+
+    - **Feature and Artifact Store:** Handles the ingestion, processing, metadata, and storage of data and features
+    across multiple repositories and technologies.
+
+    - **Elastic Serverless Runtimes:** Converts simple code to scalable and managed microservices with
+    workload-specific runtime engines (such as Kubernetes jobs, Nuclio, Dask, Spark, and Horovod).
+
+    - **ML Pipeline Automation:** Automates data preparation, model training and testing, deployment of real-time
+    production pipelines, and end-to-end monitoring.
+
+    - **Central Management:** Provides a unified portal for managing the entire MLOps workflow. The portal
+    includes a UI, a CLI, and an SDK, which are accessible from anywhere.
+
+  logo: /images/projects/mlrun.png
+  introLogoVisible: true
+  gitHubRepoName: mlrun/mlrun
+  youTubeVideoId: _3mxz3zMPpw
