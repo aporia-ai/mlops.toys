@@ -1,4 +1,4 @@
-- name: PrimeHub 
+- name: PrimeHub
   buttonText: Try PrimeHub
   link: https://github.com/InfuseAI/primehub
   category: Training Orchestration
@@ -6,7 +6,7 @@
     PrimeHub, an open-source pluggable MLOps platform on the top of Kubernetes for teams of data scientists and administrators.
     PrimeHub equips enterprises with consistent yet flexible tools to develop, train, and deploy ML models at scale. 
     By improving the iterative process of data science, data teams can collaborate closely and innovate fast.
-    
+
     - Cluster Computing with multi-tenancy
 
     - One-Click Notebook Environments
@@ -18,7 +18,6 @@
     - Model Tracking and Deployment
 
     - Capability Augmentation with 3rd-party Apps Store
-
 
   logo: /images/projects/primehub.png
   introLogoVisible: true
@@ -152,7 +151,7 @@
   link: 'https://feast.dev/'
   category: Feature Store
   competesWith:
-  - [Hopsworks]
+    - [Hopsworks]
   description: >-
     Feast is an operational data system for managing and serving machine learning features to models in production.
 
@@ -172,8 +171,8 @@
   link: 'https://www.hopsworks.ai/'
   category: Feature Store
   competesWith:
-  - [Tecton]
-  - [Feast]
+    - [Tecton]
+    - [Feast]
   description: >-
     The Hopsworks Feature Store manages your features for training and serving models.
 
@@ -355,9 +354,9 @@
   link: 'https://bentoml.org/'
   category: Model Serving
   worksWellWith:
-  - [AWS Lambda]
-  - [Azure Functions]
-  - [Google Cloud Run]
+    - [AWS Lambda]
+    - [Azure Functions]
+    - [Google Cloud Run]
   description: >2-
     BentoML is a flexible, high-performance framework for serving, managing, and deploying machine learning models.
 
@@ -449,8 +448,8 @@
   link: 'https://developer.nvidia.com/nvidia-triton-inference-server'
   category: Model Serving
   worksWellWith:
-  - [Azure ML]
-  - [Google CAIP]
+    - [Azure ML]
+    - [Google CAIP]
   description: >-
     Triton Inference Server simplifies the deployment of AI models at scale in production.
 
@@ -832,6 +831,7 @@
   link: https://github.com/ploomber/ploomber
   description: >-
     Develop and test workflows locally, seamlessly execute them in a distributed environment.
+
     Features:
 
     - **Cloud-agnostic.** Runs in Kubernetes, AWS Batch, and Airflow.
@@ -845,7 +845,7 @@
     - **Parallelization.** Automatically parallelize independent tasks.
 
     - **Interactive console.** Helps you debug workflows quickly.
-    
+
   logo: /images/projects/ploomber.svg
   introLogoVisible: true
   gitHubRepoName: ploomber/ploomber
