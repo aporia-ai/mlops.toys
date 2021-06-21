@@ -886,3 +886,37 @@
   logo: /images/projects/valohai.svg
   introLogoVisible: true
   youTubeVideoId: jnrSd2nqCWg
+- name: Spock
+  category: Configuration
+  competesWith:
+    - [Hydra]
+  buttonText: Try Spock
+  link: https://github.com/fidelity/spock
+  description: >-
+    spock is a framework that helps manage complex parameter configurations during research and development of Python applications. spock lets you focus on the code you need to write instead of re-implementing boilerplate code like creating ArgParsers, reading configuration files, implementing traceability etc. In short, spock configurations are defined by simple and familiar class-based structures. This allows spock to support inheritance, read from multiple markdown formats, and allow hierarchical configuration by composition.
+
+    Features:
+    
+    - **Simple Declaration:** Type checked parameters are defined within a @spock decorated class. Supports required/optional and automatic defaults.
+    
+    - **Easily Managed Parameter Groups:** Each class automatically generates its own object within a single namespace.
+    
+    - **Parameter Inheritance:** Classes support inheritance allowing for complex configurations derived from a common base set of parameters.
+    
+    - **Complex Types:** Nested Lists/Tuples, List/Tuples of Enum of @spock classes, List of repeated @spock classes
+    
+    - **Multiple Configuration File Types:** Configurations are specified from YAML, TOML, or JSON files.
+    
+    - **Hierarchical Configuration:** Compose from multiple configuration files via simple include statements.
+    
+    - **Command-Line Overrides:** Quickly experiment by overriding a value with automatically generated command line arguments.
+    
+    - **Immutable:** All classes are frozen preventing any misuse or accidental overwrites (to the extent they can be in Python).
+    
+    - **Tractability and Reproducibility:** Save runtime parameter configuration to YAML, TOML, or JSON with a single chained command (with extra runtime info such as Git info, Python version, machine FQDN, etc). The saved markdown file can be used as the configuration input to reproduce prior runtime configurations.
+    
+    - **S3 Addon:** Automatically detects s3:// URI(s) and handles loading and saving spock configuration files when an active boto3.Session is passed in (plus any additional S3Transfer configurations)
+    
+  logo: /images/projects/spock.png
+  introLogoVisible: true
+  gitHubRepoName: fidelity/spock
