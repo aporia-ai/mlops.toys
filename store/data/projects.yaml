@@ -851,3 +851,21 @@
   introLogoVisible: true
   gitHubRepoName: ploomber/ploomber
   youTubeVideoId: XCgX1AszVF4
+- name: Sagify
+  buttonText: Try Sagify
+  link: 'https://www.sagifyml.com/'
+  category: Model Serving
+  description: >-
+    A command-line utility to train and deploy Machine Learning and Deep Learning models on AWS SageMaker in a few simple steps.
+    
+
+    Key features:
+
+    1. **Turn on ML superpowers:** Train, tune and deploy hundreds of ML models by implementing just 2 functions
+
+    2. **Focus 100% on Machine Learning:** Manage your ML models from one place without dealing with low level engineering tasks
+
+    3. **100% reliable:** No more flaky ML pipelines. Sagify offers 100% reliable training and deployment on AWS.
+  logo: /images/projects/sagify.png
+  introLogoVisible: true
+  gitHubRepoName: Kenza-AI/sagify
