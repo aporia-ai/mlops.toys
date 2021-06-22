@@ -776,7 +776,7 @@
 - name: Iguazio Data Science Platform
   buttonText: Try Iguazio
   link: 'https://www.iguazio.com/'
-  category: Feature store
+  category: Feature Store
   description: >-
     The Iguazio Data Science Platform accelerates and scales development, deployment and management of your AI
     applications with MLOps and end-to-end automation of machine learning pipelines. The platform includes an 
