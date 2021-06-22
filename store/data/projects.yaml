@@ -887,7 +887,7 @@
   introLogoVisible: true
   youTubeVideoId: jnrSd2nqCWg
 - name: Spock
-  category: Configuration
+  category: Training Orchestration
   competesWith:
     - [Hydra]
   buttonText: Try Spock
