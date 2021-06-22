@@ -794,7 +794,7 @@
     in production with a simple dashboard integrated with Iguazio’s Feature Store.
   logo: /images/projects/iguazio.png
   introLogoVisible: true
-  youTubeVideoId: BzQQ1X4LgcQ&t=6s
+  youTubeVideoId: BzQQ1X4LgcQ
 - name: MLRun
   buttonText: Try MLRun
   link: 'https://mlrun.org/'
@@ -820,7 +820,7 @@
   logo: /images/projects/mlrun.png
   introLogoVisible: true
   gitHubRepoName: mlrun/mlrun
-  youTubeVideoId: imiTr1aXRKU&t=1s
+  youTubeVideoId: imiTr1aXRKU
 - name: Ploomber
   category: Training Orchestration
   worksWellWith:
