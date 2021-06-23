@@ -21,9 +21,16 @@ export const getters = {
 	getProjects(state) {
 		return _.orderBy(state.projects, 'name', 'asc')
 	},
-	getCategories(state) {
-		return [...new Set(state.projects.map((project) => project.category))]
-	},
+  getAllCategories(state) {
+    return [
+      ...new Set(
+        [].concat.apply(
+          [],
+          state.projects.map((project) => project.categories)
+        )
+      ),
+    ]
+  },
 	getProjectsIntroLogos(state) {
 		return _.orderBy(
 			state.projects

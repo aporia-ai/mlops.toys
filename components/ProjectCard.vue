@@ -2,7 +2,7 @@
 	<div class="project-card p-10 lg:p-6 rounded" :style="`background-color: ${backgroundColor}; --color: ${color};`">
 		<!-- Header -->
 		<div class="flex lg:block">
-			<div class="flex mr-10 lg:mr-0 flex-1 text-zero">
+			<div class="flex mr-10 lg:mr-0 flex-2 text-zero">
 				<div class="w-8 h-8 lg:w-6 lg:h-6 mr-5 lg:mr-4 mt-0.5 lg:mt-1 inline-block align-middle flex-shrink-0">
 					<a
 						:href="project.link"
@@ -44,8 +44,23 @@
 					</a>
 				</div>
 			</div>
-			<div class="text-sm lg:text-xs text-gray-400 flex-shrink-0 whitespace-nowrap mt-1.5 lg:mt-2">
-				{{ project.category }}
+      <!-- Categories -->
+      <div class="-m-1 flex lg:mr-0 flex-1">
+        <table class="lg:block flex-grow">
+          <tr class="row lg:block flex flex-wrap justify-end">
+            <div
+              v-for="(item, itemKey) in project.categories"
+              :key="itemKey"
+              class="py-1 px-2.5 flex-wrap rounded border border-solid border-gray-500table-item m-1"
+              target="_blank"
+            >
+              <span
+                class="text-sm lg:text-xs text-gray-400 flex-shrink-0 whitespace-nowrap mt-1.5 lg:mt-2"
+                >{{ item }}
+              </span>
+            </div>
+          </tr>
+        </table>
 			</div>
 		</div>
 
@@ -156,10 +171,10 @@ export default {
 			projects: 'getProjects',
 		}),
 		color() {
-			return this.categoryColors[this.project.category][0]
+			return this.categoryColors[this.project.categories[0]]
 		},
 		backgroundColor() {
-			return pSBC(0.95, this.categoryColors[this.project.category][0])
+			return pSBC(0.95, this.categoryColors[this.project.categories[0]])
 		},
 		octokit() {
 			return this.$store.state.octokit

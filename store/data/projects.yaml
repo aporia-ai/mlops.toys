@@ -153,7 +153,8 @@
 - name: PrimeHub
   buttonText: Try PrimeHub
   link: https://github.com/InfuseAI/primehub
-  category: Training Orchestration
+  categories:
+  - Training Orchestration
   description: >-
     PrimeHub, an open-source pluggable MLOps platform on the top of Kubernetes for teams of data scientists and administrators.
     PrimeHub equips enterprises with consistent yet flexible tools to develop, train, and deploy ML models at scale.
@@ -178,7 +179,8 @@
 - name: DAGsHub
   buttonText: Try DAGsHub
   link: 'https://dagshub.com/'
-  category: Data Versioning
+  categories:
+  - Data Versioning
   description: >-
     DAGsHub enables data scientists and ML engineers to work together, effectively.
     Integrating open-source tools like Git, DVC, MLflow, and Jenkins so that you can
@@ -200,7 +202,8 @@
 - name: Determined
   buttonText: Try Determined
   link: 'https://determined.ai/'
-  category: Training Orchestration
+  categories:
+  - Training Orchestration
   description: >-
     Determined is an open-source deep learning training platform that makes
     building models fast and easy.
@@ -229,7 +232,8 @@
 - name: Flyte
   buttonText: Try Flyte
   link: 'https://flyte.org/'
-  category: Training Orchestration
+  categories:
+  - Training Orchestration
   description: >-
     Flyte makes it easy to create concurrent, scalable, and maintainable
     workflows for machine learning and data processing.
@@ -250,7 +254,8 @@
 - name: Kubeflow
   buttonText: Try Kubeflow
   link: 'https://www.kubeflow.org/'
-  category: Training Orchestration
+  categories:
+  - Training Orchestration
   description: >-
     The Kubeflow project is dedicated to making deployments of machine learning
     (ML) workflows on Kubernetes simple, portable and scalable.
@@ -268,7 +273,8 @@
 - name: OpenPAI
   buttonText: Try OpenPAI
   link: 'https://openpai.readthedocs.io/'
-  category: Training Orchestration
+  categories:
+  - Training Orchestration
   description: >-
     OpenPAI is an open-source platform that provides complete AI model training
     and resource management capabilities, it is easy to extend and supports
@@ -280,7 +286,8 @@
 - name: Butterfree
   buttonText: Try Butterfree
   link: 'https://github.com/quintoandar/butterfree'
-  category: Feature Store
+  categories:
+  - Feature Store
   description: >-
     A tool for building feature stores. Transform your raw data into beautiful
     features.
@@ -300,7 +307,8 @@
 - name: Feast
   buttonText: Try Feast
   link: 'https://feast.dev/'
-  category: Feature Store
+  categories:
+  - Feature Store
   competesWith:
     - [Hopsworks]
   description: >-
@@ -320,7 +328,8 @@
 - name: Hopsworks
   buttonText: Try Hopsworks
   link: 'https://www.hopsworks.ai/'
-  category: Feature Store
+  categories:
+  - Feature Store
   competesWith:
     - [Tecton]
     - [Feast]
@@ -341,7 +350,8 @@
 - name: MLFlow
   buttonText: Try MLFlow
   link: 'https://mlflow.org/'
-  category: Experiment Tracking
+  categories:
+  - Experiment Tracking
   description: >-
     MLflow is a platform to streamline machine learning development, including
     tracking experiments, packaging code into reproducible runs, and sharing and
@@ -369,7 +379,8 @@
 - name: DVC
   buttonText: Try DVC
   link: 'https://dvc.org/'
-  category: Data Versioning
+  categories:
+  - Data Versioning
   description: >-
     DVC is an open-source tool for data science and machine learning projects.
 
@@ -402,7 +413,8 @@
 - name: Pachyderm
   buttonText: Try Pachyderm
   link: 'https://www.pachyderm.com/'
-  category: Data Versioning
+  categories:
+  - Data Versioning
   description: >-
     Pachyderm is a tool for version-controlled, automated, end-to-end data
     pipelines for data science.
@@ -427,7 +439,8 @@
 - name: Weights & Biases
   buttonText: Try Weights & Biases
   link: 'https://wandb.ai/'
-  category: Experiment Tracking
+  categories:
+  - Experiment Tracking
   description: >-
     Track and visualize all the pieces of your machine learning pipeline, from datasets to production models.
 
@@ -446,7 +459,8 @@
 - name: Aim
   buttonText: Try Aim
   link: 'https://aimstack.io/'
-  category: Experiment Tracking
+  categories:
+  - Experiment Tracking
   description: >-
     Compare 1000s of AI experiments at once.
 
@@ -462,7 +476,8 @@
 - name: ClearML
   buttonText: Try ClearML
   link: 'https://clear.ml/'
-  category: Experiment Tracking
+  categories:
+  - Experiment Tracking
   description: >-
     ClearML is an open source suite of tools that automates preparing, executing, and
     analyzing machine learning experiments.
@@ -483,7 +498,8 @@
 - name: CML
   buttonText: Try CML
   link: 'http://cml.dev/'
-  category: Experiment Tracking
+  categories:
+  - Experiment Tracking
   description: >-
     Open-source library for implementing CI/CD in machine learning projects.
 
@@ -502,7 +518,8 @@
 - name: BentoML
   buttonText: Try BentoML
   link: 'https://bentoml.org/'
-  category: Model Serving
+  categories:
+  - Model Serving
   worksWellWith:
     - [AWS Lambda]
     - [Azure Functions]
@@ -533,7 +550,8 @@
 - name: Cortex
   buttonText: Try Cortex
   link: 'https://cortex.dev/'
-  category: Model Serving
+  categories:
+  - Model Serving
   description: >-
     Cortex makes it simple to deploy machine learning models in production.
 
@@ -573,7 +591,8 @@
 - name: KFServing
   buttonText: Try KFServing
   link: 'https://github.com/kubeflow/kfserving'
-  category: Model Serving
+  categories:
+  - Model Serving
   competesWith:
     - [Seldon Core]
     - [BentoML, to some extent]
@@ -596,7 +615,8 @@
 - name: Triton Inference Server
   buttonText: Try Triton
   link: 'https://developer.nvidia.com/nvidia-triton-inference-server'
-  category: Model Serving
+  categories:
+  - Model Serving
   worksWellWith:
     - [Azure ML]
     - [Google CAIP]
@@ -623,7 +643,8 @@
 - name: Seldon Core
   buttonText: Try Seldon Core
   link: 'https://www.seldon.io/tech/products/core/'
-  category: Model Serving
+  categories:
+  - Model Serving
   competesWith:
     - [KFServing]
     - [BentoML, to some extent]
@@ -649,7 +670,8 @@
 - name: Tensorflow Serving
   buttonText: Try Tensorflow Serving
   link: https://github.com/tensorflow/serving
-  category: Model Serving
+  categories:
+  - Model Serving
   competesWith:
     - [Triton Inference Server]
   description: >-
@@ -672,7 +694,8 @@
 - name: TorchServe
   buttonText: Try TorchServe
   link: 'https://pytorch.org/serve/'
-  category: Model Serving
+  categories:
+  - Model Serving
   competesWith:
     - [Triton Inference Server]
   description: >-
@@ -691,7 +714,8 @@
 - name: Aporia
   buttonText: Try Aporia
   link: 'https://aporia.com/'
-  category: Model Monitoring
+  categories:
+  - Model Monitoring
   description: >-
     With Aporia data scientists and ML engineers can easily build monitoring for their ML models running in production.
 
@@ -713,7 +737,8 @@
 - name: Evidently AI
   buttonText: Try Evidently AI
   link: 'https://evidentlyai.com/'
-  category: Model Monitoring
+  categories:
+  - Model Monitoring
   description: >-
     Evidently helps analyze machine learning models during validation or production monitoring. It generates interactive reports from pandas DataFramesor csv files.
 
@@ -731,7 +756,8 @@
 - name: Deepchecks
   buttonText: Try Deepchecks
   link: 'https://deepchecks.com/'
-  category: Model Monitoring
+  categories:
+  - Model Monitoring
   description: >-
     Validate and monitor your data and models during training, production and new version releases.
 
@@ -753,7 +779,8 @@
 - name: ELI5
   buttonText: Try ELI5
   link: 'https://github.com/TeamHG-Memex/eli5'
-  category: Explainability
+  categories:
+  - Explainability
   description: >-
     ELI5 is a Python library which allows to visualize and debug various Machine
     Learning models using unified API. It has built-in support for several ML
@@ -765,7 +792,8 @@
 - name: InterpretML
   buttonText: Try InterpretML
   link: 'https://interpret.ml/'
-  category: Explainability
+  categories:
+  - Explainability
   description: >-
     InterpretML is an open-source package that incorporates state-of-the-art
     machine learning interpretability techniques under one roof. With this
@@ -796,7 +824,8 @@
 - name: Lime
   buttonText: Try Lime
   link: 'https://github.com/marcotcr/lime'
-  category: Explainability
+  categories:
+  - Explainability
   description: >-
     This project is about explaining what machine learning classifiers (or
     models) are doing. At the moment, we support explaining individual
@@ -810,7 +839,8 @@
 - name: SHAP
   buttonText: Try SHAP
   link: 'https://github.com/slundberg/shap'
-  category: Explainability
+  categories:
+  - Explainability
   description: >-
     SHAP (SHapley Additive exPlanations) is a game theoretic approach to explain
     the output of any machine learning model. It connects optimal credit
@@ -822,7 +852,8 @@
 - name: Fiddler
   buttonText: Try Fiddler
   link: 'https://www.fiddler.ai/'
-  category: Explainability
+  categories:
+  - Explainability
   description: >-
     Continuously monitor, explain, and analyze AI systems at scale. With actionable insights build trustworthy, fair, and responsible AI monitoring.
 
@@ -838,7 +869,8 @@
 - name: Comet
   buttonText: Try Comet
   link: 'https://www.comet.ml/'
-  category: Experiment Tracking
+  categories:
+  - Experiment Tracking
   description: >-
     Comet enables data scientists and teams to track, compare, explain and
     optimize experiments and models across the model’s entire lifecycle. From
@@ -849,7 +881,8 @@
 - name: Bytehub
   buttonText: Try Bytehub
   link: 'https://www.bytehub.ai/'
-  category: Feature Store
+  categories:
+  - Feature Store
   description: >-
     An easy-to-use feature store.
 
@@ -877,7 +910,8 @@
 - name: Bodywork
   buttonText: Try Bodywork
   link: 'https://github.com/bodywork-ml/bodywork-core/'
-  category: Model Serving
+  categories:
+  - Model Serving
   description: >-
     Bodywork deploys machine learning projects developed in Python, to
     Kubernetes. It helps you:
@@ -899,7 +933,8 @@
 - name: Neptune
   buttonText: Try Neptune
   link: 'https://neptune.ai/'
-  category: Experiment Tracking
+  categories:
+  - Experiment Tracking
   description: >-
     Neptune is a lightweight experiment logging/tracking tool that helps you
     with your machine learning experiments.
@@ -925,7 +960,18 @@
 - name: Iguazio Data Science Platform
   buttonText: Try Iguazio
   link: 'https://www.iguazio.com/'
-  category: Feature Store
+  categories:
+  - Model Serving
+  - Feature Store
+  - Experiment Tracking
+  - Model Monitoring
+  - Data Versioning
+  - Training Orchestration
+  worksWellWith:
+    - [Kubernetes]
+    - [MLRun]
+    - [Nuclio]
+    - [Kubeflow Pipelines]
   description: >-
     The Iguazio Data Science Platform accelerates and scales development, deployment and management of your AI
     applications with MLOps and end-to-end automation of machine learning pipelines. The platform includes an
@@ -949,7 +995,18 @@
 - name: MLRun
   buttonText: Try MLRun
   link: 'https://mlrun.org/'
-  category: Model Monitoring
+  categories:
+  - Model Serving
+  - Feature Store
+  - Experiment Tracking
+  - Model Monitoring
+  - Data Versioning
+  - Training Orchestration
+  worksWellWith:
+    - [Kubernetes]
+    - [Iguazio]
+    - [Nuclio]
+    - [Kubeflow Pipelines]
   description: >-
     MLRun is an end-to-end open-source MLOps orchestration framework to manage and automate your entire analytics and machine
     learning lifecycle, from data ingestion, through model development to full pipeline deployment. MLRun eases
@@ -973,7 +1030,8 @@
   gitHubRepoName: mlrun/mlrun
   youTubeVideoId: imiTr1aXRKU
 - name: Ploomber
-  category: Training Orchestration
+  categories:
+  - Training Orchestration
   worksWellWith:
     - [Kubernetes]
     - [AWS Batch]
@@ -1005,7 +1063,8 @@
 - name: Sagify
   buttonText: Try Sagify
   link: 'https://www.sagifyml.com/'
-  category: Model Serving
+  categories:
+  - Model Serving
   description: >-
     A command-line utility to train and deploy Machine Learning and Deep Learning models on AWS SageMaker in a few simple steps.
 
@@ -1023,7 +1082,8 @@
 - name: Valohai
   buttonText: Try Valohai
   link: 'https://valohai.com/'
-  category: Training Orchestration
+  categories:
+  - Training Orchestration
   description: >-
     Valohai is an MLOps platform that handles machine orchestration, automatic reproducibility and deployment.
 

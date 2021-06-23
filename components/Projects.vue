@@ -127,6 +127,7 @@
 
 <script>
 import { mapGetters } from 'vuex'
+import _ from 'lodash'
 import pSBC from 'shade-blend-color'
 import Masonry from '@/components/Masonry.vue'
 import { encodeUriParam, decodeUriParam } from '../utils/uriParams'
@@ -147,13 +148,16 @@ export default {
 	computed: {
 		...mapGetters({
 			projects: 'getProjects',
-			categories: 'getCategories',
+			categories: 'getAllCategories',
 			categoryColors: 'getCategoryColors',
 		}),
 		filteredProjects() {
-			return this.selectedCategories.length > 0
-				? this.projects.filter((project) => this.selectedCategories.includes(project.category))
-				: this.projects
+      return this.selectedCategoriesVisual.length > 0
+        ? this.projects.filter(
+            (project) =>
+              _.intersection(this.selectedCategoriesVisual, project.categories)
+                .length > 0
+        )
 		},
 	},
 	watch: {
