@@ -19,11 +19,10 @@
 
     - Capability Augmentation with 3rd-party Apps Store
 
-
   logo: /images/projects/primehub.png
   introLogoVisible: true
   gitHubRepoName: InfuseAI/primehub
-  youTubeVideoId: VBgTonZhQfA
+  youTubeVideoId: 3ZOPXR9L2Ho
 - name: DAGsHub
   buttonText: Try DAGsHub
   link: 'https://dagshub.com/'
@@ -152,7 +151,7 @@
   link: 'https://feast.dev/'
   category: Feature Store
   competesWith:
-  - [Hopsworks]
+    - [Hopsworks]
   description: >-
     Feast is an operational data system for managing and serving machine learning features to models in production.
 
@@ -172,8 +171,8 @@
   link: 'https://www.hopsworks.ai/'
   category: Feature Store
   competesWith:
-  - [Tecton]
-  - [Feast]
+    - [Tecton]
+    - [Feast]
   description: >-
     The Hopsworks Feature Store manages your features for training and serving models.
 
@@ -355,9 +354,9 @@
   link: 'https://bentoml.org/'
   category: Model Serving
   worksWellWith:
-  - [AWS Lambda]
-  - [Azure Functions]
-  - [Google Cloud Run]
+    - [AWS Lambda]
+    - [Azure Functions]
+    - [Google Cloud Run]
   description: >2-
     BentoML is a flexible, high-performance framework for serving, managing, and deploying machine learning models.
 
@@ -449,8 +448,8 @@
   link: 'https://developer.nvidia.com/nvidia-triton-inference-server'
   category: Model Serving
   worksWellWith:
-  - [Azure ML]
-  - [Google CAIP]
+    - [Azure ML]
+    - [Google CAIP]
   description: >-
     Triton Inference Server simplifies the deployment of AI models at scale in production.
 
@@ -777,22 +776,149 @@
 - name: Iguazio Data Science Platform
   buttonText: Try Iguazio
   link: 'https://www.iguazio.com/'
-  category: Experiment Tracking
+  category: Feature Store
   description: >-
     The Iguazio Data Science Platform accelerates and scales development, deployment and management of your AI
-    applications with MLOps and end-to-end automation of machine learning pipelines.
+    applications with MLOps and end-to-end automation of machine learning pipelines. The platform includes an 
+    online and offline feature store, fully integrated with automated model monitoring and drift detection, model serving 
+    and dynamic scaling capabilities, all packaged in an open and managed platform.
 
-    - **Ingest Data from Any Source and Build Reusable  Online and Offline Features:** Ingest and unify unstructured
-    and structured data in real-time and create online and offline features using Iguazio’s Integrated Feature Store.
+    - **Ingest Data from Any Source and Build Reusable Online and Offline Features:** Ingest and unify unstructured
+    and structured data in real-time and create online and offline features using Iguazio’s **Integrated Feature Store**.
 
     - **Continuously Train and Evaluate Models at Scale:** Run experimentation over scalable serverless ML/DL runtimes
     with automated tracking, data versioning, and continuous integration/delivery (CI/CD) support.
 
-    - **Deploy Models to Production  in Seconds:** Deploy models and APIs from a Jupyter notebook or IDE to production
+    - **Deploy Models to Production in Seconds:** Deploy models and APIs from a Jupyter notebook or IDE to production
     in just a few clicks and continuously monitor model performance and mitigate model drift.
 
-    - **Monitor Your Models and Data  on the Fly:** Manage, govern and monitor your models and real-time features
+    - **Monitor Your Models and Data on the Fly:** Manage, govern and monitor your models and real-time features
     in production with a simple dashboard integrated with Iguazio’s Feature Store.
   logo: /images/projects/iguazio.png
   introLogoVisible: true
-  youTubeVideoId: Fg4PYL7r43U
+  youTubeVideoId: BzQQ1X4LgcQ
+- name: MLRun
+  buttonText: Try MLRun
+  link: 'https://mlrun.org/'
+  category: Model Monitoring
+  description: >-
+    MLRun is an end-to-end open-source MLOps orchestration framework to manage and automate your entire analytics and machine
+    learning lifecycle, from data ingestion, through model development to full pipeline deployment. MLRun eases
+    the development of machine learning pipelines at scale and helps ML teams build a robust process for moving
+    from the research phase to fully operational production deployments.
+
+    - **Feature and Artifact Store:** Handles the ingestion, processing, metadata, and storage of data and features
+    across multiple repositories and technologies.
+
+    - **Elastic Serverless Runtimes:** Converts simple code to scalable and managed microservices with
+    workload-specific runtime engines (such as Kubernetes jobs, Nuclio, Dask, Spark, and Horovod).
+
+    - **ML Pipeline Automation:** Automates data preparation, model training and testing, deployment of real-time
+    production pipelines, and **end-to-end model and feature monitoring**.
+
+    - **Central Management:** Provides a unified portal for managing the entire MLOps workflow. The portal
+    includes a UI, a CLI, and an SDK, which are accessible from anywhere.
+
+  logo: /images/projects/mlrun.png
+  introLogoVisible: true
+  gitHubRepoName: mlrun/mlrun
+  youTubeVideoId: imiTr1aXRKU
+- name: Ploomber
+  category: Training Orchestration
+  worksWellWith:
+    - [Kubernetes]
+    - [AWS Batch]
+    - [Airflow]
+  buttonText: Try Ploomber
+  link: https://github.com/ploomber/ploomber
+  description: >-
+    Develop and test workflows locally, seamlessly execute them in a distributed environment.
+
+
+    Features:
+
+    - **Cloud-agnostic.** Runs in Kubernetes, AWS Batch, and Airflow.
+
+    - **Integrates with Jupyter.** Develop interactively, deploy to the cloud without code changes.
+
+    - **Incremental builds.** Speed up execution by skipping tasks whose source code has not changed.
+
+    - **Flexible.** Supports functions, scripts, notebooks, and SQL scripts as tasks.
+
+    - **Parallelization.** Automatically parallelize independent tasks.
+
+    - **Interactive console.** Helps you debug workflows quickly.
+
+  logo: /images/projects/ploomber.svg
+  introLogoVisible: true
+  gitHubRepoName: ploomber/ploomber
+  youTubeVideoId: XCgX1AszVF4
+- name: Sagify
+  buttonText: Try Sagify
+  link: 'https://www.sagifyml.com/'
+  category: Model Serving
+  description: >-
+    A command-line utility to train and deploy Machine Learning and Deep Learning models on AWS SageMaker in a few simple steps.
+    
+
+    Key features:
+
+    1. **Turn on ML superpowers:** Train, tune and deploy hundreds of ML models by implementing just 2 functions
+
+    2. **Focus 100% on Machine Learning:** Manage your ML models from one place without dealing with low level engineering tasks
+
+    3. **100% reliable:** No more flaky ML pipelines. Sagify offers 100% reliable training and deployment on AWS.
+  logo: /images/projects/sagify.png
+  introLogoVisible: true
+  gitHubRepoName: Kenza-AI/sagify
+- name: Valohai
+  buttonText: Try Valohai
+  link: 'https://valohai.com/'
+  category: Training Orchestration
+  description: >-
+    Valohai is an MLOps platform that handles machine orchestration, automatic reproducibility and deployment.
+
+    - **Technology agnostic:** Valohai runs everything in Docker containers so that you can run almost anything on it.
+
+    - **Runs on any cloud:** Valohai natively supports Azure, AWS, GCP and OpenStack.
+
+    - **API, CLI, GUI and Jupyter integration:** Valohai integrates to almost any workflow through its many interfaces.
+
+    - **Managed service:** Seasoned DevOps engineers manage Valohai – so you don’t have to be one.
+  logo: /images/projects/valohai.svg
+  introLogoVisible: true
+  youTubeVideoId: jnrSd2nqCWg
+- name: Spock
+  category: Training Orchestration
+  competesWith:
+    - [Hydra]
+  buttonText: Try Spock
+  link: https://github.com/fidelity/spock
+  description: >-
+    spock is a framework that helps manage complex parameter configurations during research and development of Python applications. spock lets you focus on the code you need to write instead of re-implementing boilerplate code like creating ArgParsers, reading configuration files, implementing traceability etc. In short, spock configurations are defined by simple and familiar class-based structures. This allows spock to support inheritance, read from multiple markdown formats, and allow hierarchical configuration by composition.
+
+    Features:
+    
+    - **Simple Declaration:** Type checked parameters are defined within a @spock decorated class. Supports required/optional and automatic defaults.
+    
+    - **Easily Managed Parameter Groups:** Each class automatically generates its own object within a single namespace.
+    
+    - **Parameter Inheritance:** Classes support inheritance allowing for complex configurations derived from a common base set of parameters.
+    
+    - **Complex Types:** Nested Lists/Tuples, List/Tuples of Enum of @spock classes, List of repeated @spock classes
+    
+    - **Multiple Configuration File Types:** Configurations are specified from YAML, TOML, or JSON files.
+    
+    - **Hierarchical Configuration:** Compose from multiple configuration files via simple include statements.
+    
+    - **Command-Line Overrides:** Quickly experiment by overriding a value with automatically generated command line arguments.
+    
+    - **Immutable:** All classes are frozen preventing any misuse or accidental overwrites (to the extent they can be in Python).
+    
+    - **Tractability and Reproducibility:** Save runtime parameter configuration to YAML, TOML, or JSON with a single chained command (with extra runtime info such as Git info, Python version, machine FQDN, etc). The saved markdown file can be used as the configuration input to reproduce prior runtime configurations.
+    
+    - **S3 Addon:** Automatically detects s3:// URI(s) and handles loading and saving spock configuration files when an active boto3.Session is passed in (plus any additional S3Transfer configurations)
+    
+  logo: /images/projects/spock.png
+  introLogoVisible: true
+  gitHubRepoName: fidelity/spock
