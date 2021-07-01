@@ -922,3 +922,26 @@
   logo: /images/projects/spock.png
   introLogoVisible: true
   gitHubRepoName: fidelity/spock
+- name: Stoke
+  category: Training Orchestration
+  competesWith:
+    - [HuggingFace Accelerate]
+    - [PyTorch Lightning (Accelerate)]
+  buttonText: Try Stoke
+  link: https://github.com/fidelity/stoke
+  description: >-
+    stoke is a lightweight wrapper for PyTorch that provides a simple declarative API for context switching between devices (e.g. CPU, GPU), distributed modes, mixed-precision, and PyTorch extensions. This allows you to switch from local full-precision CPU to mixed-precision distributed multi-GPU with extensions (like optimizer state sharding) by simply changing a few declarative flags. Additionally, stoke exposes configuration settings for every underlying backend for those that want configurability and raw access to the underlying libraries. In short, stoke is the best of PyTorch Lightning Accelerators disconnected from the rest of PyTorch Lightning. Write whatever PyTorch code you want, but leave device and backend context switching to stoke.
+
+    Supports:
+    
+    - **Devices:** CPU, GPU, multi-GPU
+    
+    - **Distributed:** DDP, Horovod, deepspeed (via DDP)
+    
+    - **Mixed-Precision:** AMP, Nvidia Apex, deepspeed (custom APEX like backend)
+    
+    - **Extensions:** fairscale (Optimizer State Sharding and Sharded DDP), deepspeed (ZeRO Stage 0-3, etc.)
+  
+  logo: /images/projects/stoke.png
+  introLogoVisible: true
+  gitHubRepoName: fidelity/stoke
