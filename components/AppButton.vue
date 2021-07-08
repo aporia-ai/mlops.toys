@@ -2,7 +2,6 @@
 	<component
 		:is="tag"
 		:type="type"
-		v-bind="$attrs"
 		class="rounded transition-colors"
 		:class="[sizeClasses, themeClasses]"
 		@click="$emit('click')"
