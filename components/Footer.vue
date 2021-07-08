@@ -1,31 +1,5 @@
 <template>
   <div class="footer text-gray-400 py-10 text-sm lg:text-xs">
-    <!-- Top -->
-    <!-- <Container class="flex justify-center">
-      <form
-        ref="form"
-        action="#"
-        method="post"
-        class="suggest-form relative max-w-full"
-        @submit.prevent="submitForm"
-      >
-        <AppInput
-          v-model="suggestionProject"
-          placeholder="Share your favorite project!"
-          class="pr-32 lg:pr-20"
-        />
-        <AppButton
-          size="small"
-          type="submit"
-          class="absolute right-1 top-1 h-9"
-        >
-          <span class="lg:hidden">Suggest project</span>
-          <span class="hidden lg:inline">Suggest</span>
-        </AppButton>
-      </form>
-    </Container> -->
-
-    <!-- Bottom -->
     <Container
       class="flex items-center justify-between lg:flex-col mt-5 lg:mt-10"
     >
@@ -69,7 +43,6 @@
 </template>
 
 <script>
-// import axios from 'axios'
 import AporiaLogo from '~/assets/logo-aporia.svg'
 
 export default {
@@ -78,17 +51,6 @@ export default {
       AporiaLogo,
       suggestionProject: '',
     }
-  },
-  methods: {
-    async submitForm() {
-      // await axios
-      //   .post('/send.php', {
-      //     name: this.suggestionProject,
-      //   })
-      //   .then(() => {
-      //     this.$refs.form.reset()
-      //   })
-    },
   },
 }
 </script>
