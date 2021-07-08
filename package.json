@@ -20,7 +20,7 @@
     "@nuxtjs/markdownit": "^2.0.0",
     "@nuxtjs/pwa": "^3.3.5",
     "@nuxtjs/svg-sprite": "^0.5.2",
-    "@octokit/auth-app": "^3.4.1",
+    "@octokit/auth-app": "^3.5.0",
     "@octokit/rest": "^18.5.6",
     "@tailwindcss/aspect-ratio": "^0.2.0",
     "core-js": "^3.14.0",
