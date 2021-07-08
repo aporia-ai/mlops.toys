@@ -1,20 +1,20 @@
 <template>
-  <div>
-    <Header />
-    <Intro />
-    <Projects />
-    <Footer />
-  </div>
+	<div>
+		<Header />
+		<Intro />
+		<Projects />
+		<Footer />
+	</div>
 </template>
 
 <script>
 export default {
-  name: 'Index',
+	name: 'Index',
 }
 </script>
 
 <style>
 .index {
-  display: block;
+	display: block;
 }
 </style>
