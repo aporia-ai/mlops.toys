@@ -33,10 +33,11 @@
 										'is-hidden': selectedCategoriesVisual.length === 0,
 									}"
 								>
-									<button
+									<NuxtLink
+										:to="{ name: 'category', params: {} }"
+										tag="button"
 										type="button"
 										class="group whitespace-nowrap text-xs mr-4 pr-2 flex-shrink-0"
-										@click="clearCategories"
 									>
 										<div class="flex items-center">
 											<div
@@ -52,7 +53,7 @@
 												>Clear</span
 											>
 										</div>
-									</button>
+									</NuxtLink>
 								</div>
 								<AppButton
 									v-for="category in categories"
@@ -68,7 +69,12 @@
 											: ''
 									"
 									type="button"
-									@click="toggleCategory(category)"
+									@click="
+										$router.push({
+											name: 'category',
+											params: { category: encodeUriParam(category) },
+										})
+									"
 								>
 									{{ category }}
 								</AppButton>
@@ -157,6 +163,18 @@ export default {
 				this.checkHeaderScrollPosition()
 			}, 500)
 		},
+		'$route.params.category': {
+			handler(categoryParam) {
+				if (!categoryParam) {
+					this.clearCategories()
+					return
+				}
+
+				const category = this.decodeUriParam(categoryParam)
+				this.toggleCategory(category)
+			},
+			immediate: true,
+		},
 	},
 	mounted() {
 		this.$nextTick(() => {
@@ -172,16 +190,23 @@ export default {
 		})
 	},
 	methods: {
+		encodeUriParam(param) {
+			return encodeURI(param.replaceAll(' ', '-'))
+		},
+		decodeUriParam(param) {
+			return decodeURI(param.replace(/-/gi, ' '))
+		},
 		toggleCategory(categoryName) {
 			const isCategorySelected =
 				this.selectedCategoriesVisual.length > 0 && this.selectedCategoriesVisual[0] === categoryName
 
-			this.$gtag.event('click', {
-				event_category: 'categories',
-				event_label: categoryName,
-				value: isCategorySelected ? 0 : 1,
-			})
-
+			if (process.client) {
+				this.$gtag.event('click', {
+					event_category: 'categories',
+					event_label: categoryName,
+					value: isCategorySelected ? 0 : 1,
+				})
+			}
 			this.projectsHidden = true
 
 			clearTimeout(this.projectHideTimeout)
@@ -213,29 +238,35 @@ export default {
 			this.headerScrollPosition = maxScroll > 0 ? currentScroll / maxScroll : -1
 		},
 		clearCategories() {
-			this.$gtag.event('click', {
-				event_category: 'categories',
-				event_label: 'clear',
-			})
+			if (process.client) {
+				this.$gtag.event('click', {
+					event_category: 'categories',
+					event_label: 'clear',
+				})
+			}
 			this.selectedCategoriesVisual.forEach((category) => {
 				this.toggleCategory(category)
 			})
 		},
 		categoriesScrollRight() {
-			this.$gtag.event('click', {
-				event_category: 'categories',
-				event_label: 'scroll right',
-			})
+			if (process.client) {
+				this.$gtag.event('click', {
+					event_category: 'categories',
+					event_label: 'scroll right',
+				})
+			}
 			this.$refs?.header?.scrollTo({
 				left: this.$refs?.header?.scrollLeft + 200,
 				behavior: 'smooth',
 			})
 		},
 		categoriesScrollLeft() {
-			this.$gtag.event('click', {
-				event_category: 'categories',
-				event_label: 'scroll left',
-			})
+			if (process.client) {
+				this.$gtag.event('click', {
+					event_category: 'categories',
+					event_label: 'scroll left',
+				})
+			}
 			this.$refs?.header?.scrollTo({
 				left: this.$refs?.header?.scrollLeft - 200,
 				behavior: 'smooth',

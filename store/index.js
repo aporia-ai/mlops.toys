@@ -29,6 +29,7 @@ export const getters = {
 				.filter((project) => project.introLogoVisible)
 				.map((project) => ({
 					src: project.logo,
+					name: project.name,
 					class: project.introLogoClass,
 					color: state.categoryColors[project.category][0],
 				})),

@@ -104,44 +104,32 @@
 		<!--  eslint-enable vue/no-v-html -->
 
 		<!-- YouTube -->
-		<a
+		<div
 			v-if="project.youTubeVideoId"
 			class="block aspect-w-16 aspect-h-9 relative mt-10 lg:mt-6 rounded overflow-hidden group video-block"
-			target="_blank"
-			:href="`https://www.youtube.com/watch?v=${project.youTubeVideoId}`"
-			@click="$gtagEvents.externalLinkClick(`https://www.youtube.com/watch?v=${project.youTubeVideoId}`)"
 		>
-			<img
-				:src="`https://img.youtube.com/vi/${project.youTubeVideoId}/hqdefault.jpg`"
-				:alt="`${project.name} Intro Video`"
-				class="w-100 h-100 absolute left-0 top-0 object-cover opacity-80 group-hover:opacity-100 transition-opacity"
+			<iframe
+				class="w-100 h-100 absolute left-0 top-0 object-cover"
+				:src="`https://www.youtube.com/embed/${project.youTubeVideoId}`"
+				:title="`${project.name} Video`"
+				frameborder="0"
+				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+				allowfullscreen
 				loading="lazy"
-			/>
-
-			<svg
-				viewBox="0 0 59 40"
-				fill="none"
-				xmlns="http://www.w3.org/2000/svg"
-				class="w-16 h-16 absolute left-0 top-0 right-0 bottom-0 m-auto"
-			>
-				<path
-					d="M57.7646 6.276C57.4306 5.06483 56.7799 3.9683 55.8817 3.10297C54.9582 2.21103 53.8264 1.57301 52.5929 1.24912C47.9768 0.0123892 29.4828 0.0123895 29.4828 0.0123895C21.7729 -0.0767735 14.0648 0.315388 6.40216 1.18666C5.16871 1.53448 4.03894 2.18676 3.11335 3.08548C2.20389 3.97493 1.54514 5.07175 1.20102 6.2735C0.374379 10.8001 -0.0272612 15.3962 0.00151704 20C-0.027979 24.5996 0.372675 29.1943 1.20102 33.7265C1.53777 34.9232 2.19406 36.0151 3.10597 36.897C4.01789 37.779 5.15349 38.4161 6.40216 38.7533C11.0797 39.9876 29.4828 39.9876 29.4828 39.9876C37.2026 40.0769 44.9204 39.6847 52.5929 38.8133C53.8264 38.4894 54.9582 37.8514 55.8817 36.9595C56.7912 36.0775 57.4377 34.9807 57.7621 33.7864C58.6103 29.2616 59.0228 24.6636 58.9936 20.0575C59.0574 15.4318 58.6455 10.8121 57.7646 6.2735V6.276ZM23.6033 28.5547V11.4478L38.9904 20.0025L23.6033 28.5547Z"
-					class="youtube-icon-bg transition-all"
-				/>
-				<path d="M23.603 28.5546V11.4478L38.9901 20.0024L23.603 28.5546Z" fill="white" stroke="white" />
-			</svg>
-
-			<!-- <iframe
-        class="hidden w-100 h-100 absolute left-0 top-0"
-        :src="`https://www.youtube.com/embed/${project.youTubeVideoId}`"
-        title="YouTube Video Player"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
-        loading="lazy"
-      /> -->
-		</a>
-
+			></iframe>
+		</div>
+		<!-- Video SEO schema -->
+		<script type="application/ld+json">
+			{{ `{
+				"@context": "http://schema.org",
+				"@type": "VideoObject",
+				"name": "${project.name} Video",
+				"description": "${project.description.split('\n')[0]}",
+				"thumbnailUrl": "https://i.ytimg.com/vi/${project.youTubeVideoId}/default.jpg",
+				"uploadDate": "2021-07-09T10:38:33Z",
+				"embedUrl": "https://www.youtube.com/embed/${project.youTubeVideoId}"
+			}` }}
+		</script>
 		<!-- Footer -->
 		<div class="flex items-center flex-wrap mt-10 lg:mt-8">
 			<AppButton

@@ -66,6 +66,9 @@ function defaultPlugins() {
 	]
 }
 
+const title = 'MLOps Toys | A Curated List of Machine Learning Projects'
+const description =
+	'Check out this curated list of the most useful MLOps tools, projects and more. Have something to add? Let us know!'
 export default {
 	// Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
 	ssr: true,
@@ -79,7 +82,7 @@ export default {
 
 	// Global page headers: https://go.nuxtjs.dev/config-head
 	head: {
-		title: 'MLOps Toys | A Curated List of Machine Learning Projects',
+		title,
 		meta: [
 			// Default
 			{ charset: 'utf-8' },
@@ -96,31 +99,31 @@ export default {
 			// Title
 			{
 				name: 'title',
-				content: 'MLOps Toys | A Curated List of Machine Learning Projects',
+				content: title,
 			},
 			{
 				name: 'og:title',
-				content: 'MLOps Toys | A Curated List of Machine Learning Projects',
+				content: title,
 			},
 			{
 				name: 'twitter:title',
-				content: 'MLOps Toys | A Curated List of Machine Learning Projects',
+				content: title,
 			},
 			// Description
 			{
 				hid: 'description',
 				name: 'description',
-				content: 'Curated list of MLOps tools, projects and more. Have something to add? Let us know!',
+				content: description,
 			},
 			{
 				hid: 'og:description',
 				name: 'og:description',
-				content: 'Curated list of MLOps tools, projects and more. Have something to add? Let us know!',
+				content: description,
 			},
 			{
 				hid: 'twitter:description',
 				name: 'twitter:description',
-				content: 'Curated list of MLOps tools, projects and more. Have something to add? Let us know!',
+				content: description,
 			},
 			// Other
 			{

@@ -44,7 +44,12 @@
 								: 'background-color: transparent'
 						"
 					>
-						<img v-if="logos[logo[0]]" :src="logos[logo[0]].src" class="block w-7/12 h-7/12" />
+						<img
+							v-if="logos[logo[0]]"
+							:src="logos[logo[0]].src"
+							class="block w-7/12 h-7/12"
+							:alt="logos[logo[0]].name"
+						/>
 					</div>
 				</div>
 			</div>

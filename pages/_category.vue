@@ -10,6 +10,10 @@
 <script>
 export default {
 	name: 'Index',
+	key(route) {
+		return route.name
+	},
+	scrollToTop: false,
 }
 </script>
 
