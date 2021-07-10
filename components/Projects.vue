@@ -169,9 +169,11 @@ export default {
 					return
 				}
 
-				const category = this.decodeUriParam(categoryParam)
+				const category = this.categories.find(
+					(category) => this.decodeUriParam(categoryParam).toLowerCase() === category.toLowerCase(),
+				)
 
-				if (!this.categories.includes(category)) {
+				if (!category) {
 					this.$router.replace({ name: 'category', params: {} })
 				}
 				this.toggleCategory(category)
