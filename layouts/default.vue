@@ -12,7 +12,7 @@ import { Octokit } from '@octokit/rest'
 import projects from '~/store/data/projects.yaml'
 
 export default {
-	mounted() {
+	created() {
 		try {
 			const projectsJSON = yaml.load(projects)
 			this.setProjects(projectsJSON)
