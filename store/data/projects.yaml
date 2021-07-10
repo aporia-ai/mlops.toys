@@ -1,12 +1,12 @@
-- name: PrimeHub 
+- name: PrimeHub
   buttonText: Try PrimeHub
   link: https://github.com/InfuseAI/primehub
   category: Training Orchestration
   description: >-
     PrimeHub, an open-source pluggable MLOps platform on the top of Kubernetes for teams of data scientists and administrators.
-    PrimeHub equips enterprises with consistent yet flexible tools to develop, train, and deploy ML models at scale. 
+    PrimeHub equips enterprises with consistent yet flexible tools to develop, train, and deploy ML models at scale.
     By improving the iterative process of data science, data teams can collaborate closely and innovate fast.
-    
+
     - Cluster Computing with multi-tenancy
 
     - One-Click Notebook Environments
@@ -313,7 +313,6 @@
   link: 'https://clear.ml/'
   category: Experiment Tracking
   description: >-
-
     ClearML is an open source suite of tools that automates preparing, executing, and
     analyzing machine learning experiments.
 
@@ -779,8 +778,8 @@
   category: Feature Store
   description: >-
     The Iguazio Data Science Platform accelerates and scales development, deployment and management of your AI
-    applications with MLOps and end-to-end automation of machine learning pipelines. The platform includes an 
-    online and offline feature store, fully integrated with automated model monitoring and drift detection, model serving 
+    applications with MLOps and end-to-end automation of machine learning pipelines. The platform includes an
+    online and offline feature store, fully integrated with automated model monitoring and drift detection, model serving
     and dynamic scaling capabilities, all packaged in an open and managed platform.
 
     - **Ingest Data from Any Source and Build Reusable Online and Offline Features:** Ingest and unify unstructured
@@ -859,7 +858,7 @@
   category: Model Serving
   description: >-
     A command-line utility to train and deploy Machine Learning and Deep Learning models on AWS SageMaker in a few simple steps.
-    
+
 
     Key features:
 
@@ -898,27 +897,27 @@
     spock is a framework that helps manage complex parameter configurations during research and development of Python applications. spock lets you focus on the code you need to write instead of re-implementing boilerplate code like creating ArgParsers, reading configuration files, implementing traceability etc. In short, spock configurations are defined by simple and familiar class-based structures. This allows spock to support inheritance, read from multiple markdown formats, and allow hierarchical configuration by composition.
 
     Features:
-    
+
     - **Simple Declaration:** Type checked parameters are defined within a @spock decorated class. Supports required/optional and automatic defaults.
-    
+
     - **Easily Managed Parameter Groups:** Each class automatically generates its own object within a single namespace.
-    
+
     - **Parameter Inheritance:** Classes support inheritance allowing for complex configurations derived from a common base set of parameters.
-    
+
     - **Complex Types:** Nested Lists/Tuples, List/Tuples of Enum of @spock classes, List of repeated @spock classes
-    
+
     - **Multiple Configuration File Types:** Configurations are specified from YAML, TOML, or JSON files.
-    
+
     - **Hierarchical Configuration:** Compose from multiple configuration files via simple include statements.
-    
+
     - **Command-Line Overrides:** Quickly experiment by overriding a value with automatically generated command line arguments.
-    
+
     - **Immutable:** All classes are frozen preventing any misuse or accidental overwrites (to the extent they can be in Python).
-    
+
     - **Tractability and Reproducibility:** Save runtime parameter configuration to YAML, TOML, or JSON with a single chained command (with extra runtime info such as Git info, Python version, machine FQDN, etc). The saved markdown file can be used as the configuration input to reproduce prior runtime configurations.
-    
+
     - **S3 Addon:** Automatically detects s3:// URI(s) and handles loading and saving spock configuration files when an active boto3.Session is passed in (plus any additional S3Transfer configurations)
-    
+
   logo: /images/projects/spock.png
   introLogoVisible: true
   gitHubRepoName: fidelity/spock
@@ -933,15 +932,15 @@
     stoke is a lightweight wrapper for PyTorch that provides a simple declarative API for context switching between devices (e.g. CPU, GPU), distributed modes, mixed-precision, and PyTorch extensions. This allows you to switch from local full-precision CPU to mixed-precision distributed multi-GPU with extensions (like optimizer state sharding) by simply changing a few declarative flags. Additionally, stoke exposes configuration settings for every underlying backend for those that want configurability and raw access to the underlying libraries. In short, stoke is the best of PyTorch Lightning Accelerators disconnected from the rest of PyTorch Lightning. Write whatever PyTorch code you want, but leave device and backend context switching to stoke.
 
     Supports:
-    
+
     - **Devices:** CPU, GPU, multi-GPU
-    
+
     - **Distributed:** DDP, Horovod, deepspeed (via DDP)
-    
+
     - **Mixed-Precision:** AMP, Nvidia Apex, deepspeed (custom APEX like backend)
-    
+
     - **Extensions:** fairscale (Optimizer State Sharding and Sharded DDP), deepspeed (ZeRO Stage 0-3, etc.)
-  
+
   logo: /images/projects/stoke.png
   introLogoVisible: true
   gitHubRepoName: fidelity/stoke
