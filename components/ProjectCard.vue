@@ -118,18 +118,6 @@
 				loading="lazy"
 			></iframe>
 		</div>
-		<!-- Video SEO schema -->
-		<script type="application/ld+json">
-			{{ `{
-				"@context": "http://schema.org",
-				"@type": "VideoObject",
-				"name": "${project.name} Video",
-				"description": "${project.description.split('\n')[0]}",
-				"thumbnailUrl": "https://i.ytimg.com/vi/${project.youTubeVideoId}/default.jpg",
-				"uploadDate": "2021-07-09T10:38:33Z",
-				"embedUrl": "https://www.youtube.com/embed/${project.youTubeVideoId}"
-			}` }}
-		</script>
 		<!-- Footer -->
 		<div class="flex items-center flex-wrap mt-10 lg:mt-8">
 			<AppButton
