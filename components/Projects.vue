@@ -35,7 +35,6 @@
 								>
 									<NuxtLink
 										:to="{ name: 'category', params: {} }"
-										tag="button"
 										type="button"
 										class="group whitespace-nowrap text-xs mr-4 pr-2 flex-shrink-0"
 									>
@@ -130,7 +129,7 @@
 import { mapGetters } from 'vuex'
 import pSBC from 'shade-blend-color'
 import Masonry from '@/components/Masonry.vue'
-
+import { encodeUriParam, decodeUriParam } from '../utils/uriParams'
 export default {
 	name: 'Projects',
 	components: {
@@ -194,12 +193,8 @@ export default {
 		})
 	},
 	methods: {
-		encodeUriParam(param) {
-			return encodeURI(param.replaceAll(' ', '-'))
-		},
-		decodeUriParam(param) {
-			return decodeURI(param.replace(/-/gi, ' '))
-		},
+		encodeUriParam,
+		decodeUriParam,
 		toggleCategory(categoryName) {
 			const isCategorySelected =
 				this.selectedCategoriesVisual.length > 0 && this.selectedCategoriesVisual[0] === categoryName

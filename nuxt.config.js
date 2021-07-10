@@ -1,4 +1,9 @@
+import { encodeUriParam } from './utils/uriParams'
+
 /* eslint-disable */
+const yaml = require('js-yaml')
+const fs = require('fs')
+
 const cleanupIDs = require('svgo/plugins/cleanupIDs')
 const removeAttrs = require('svgo/plugins/removeAttrs')
 const removeDimensions = require('svgo/plugins/removeDimensions')
@@ -78,6 +83,12 @@ export default {
 
 	generate: {
 		fallback: true,
+		routes() {
+			const projectsJSON = yaml.load(fs.readFileSync('./store/data/projects.yaml', 'utf8'))
+			const categories = [...new Set(projectsJSON.map((project) => project.category))]
+
+			return categories.map((category) => `/${encodeUriParam(category)}`)
+		},
 	},
 
 	// Global page headers: https://go.nuxtjs.dev/config-head
