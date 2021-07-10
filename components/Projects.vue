@@ -171,6 +171,10 @@ export default {
 				}
 
 				const category = this.decodeUriParam(categoryParam)
+
+				if (!this.categories.includes(category)) {
+					this.$router.replace({ name: 'category', params: {} })
+				}
 				this.toggleCategory(category)
 			},
 			immediate: true,
