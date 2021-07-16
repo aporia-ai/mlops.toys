@@ -989,8 +989,8 @@
     - **Develop Faster:** Zero copy branching for frictionless experimentation, easy collaboration.
 
     - **Enable Clean Workflows:** Use pre-commit & merge hooks for CI/CD workflows.
-    
-    - **Resilient** Recover from data issues faster with revert capability.
+
+    - **Resilient:** Recover from data issues faster with revert capability.
 
   logo: /images/projects/lakefs.svg
   introLogoVisible: true
