@@ -983,12 +983,16 @@
     Features:
 
     - **Scalable:** Version control data at exabyte scale.
+
     - **Flexible:** Run git operations like branch, commit, and  merge over your data in any storage service.
+
     - **Develop Faster:** Zero copy branching for frictionless experimentation, easy collaboration.
+
     - **Enable Clean Workflows:** Use pre-commit & merge hooks for CI/CD workflows.
+    
     - **Resilient** Recover from data issues faster with revert capability.
 
-  logo: /images/projects/lakefs.png
+  logo: /images/projects/lakefs.svg
   introLogoVisible: true
   gitHubRepoName: treeverse/lakeFS
   youTubeVideoId: xThorxDzmrw 
