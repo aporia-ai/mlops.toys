@@ -40,7 +40,7 @@
 
     - **Highly flexible** - Customize every single step of the whole AI model 
     deployment workflow (from model wrappers to Kubernetes configuration manifests),
-    and integrate with tools you love.
+    and integrate with tools you love. 
 
     - **Optimized for ML** - Run workload on highly optimized, cost-efficient, 
     and secure infrastructure built specifically for high-performance ML models. 
