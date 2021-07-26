@@ -973,3 +973,26 @@
   logo: /images/projects/stoke.png
   introLogoVisible: true
   gitHubRepoName: fidelity/stoke
+- name: lakeFS
+  category: Data Versioning
+  buttonText: Try lakeFS!
+  link: https://github.com/treeverse/lakeFS
+  description: >-
+    lakeFS is an open-source data lake management platform that transforms your object storage into a Git-like repository. lakeFS enables you to manage your data lake the way you manage your code. Run parallel pipelines for experimentation and CI/CD for your data.
+
+    Features:
+
+    - **Scalable:** Version control data at exabyte scale.
+
+    - **Flexible:** Run git operations like branch, commit, and  merge over your data in any storage service.
+
+    - **Develop Faster:** Zero copy branching for frictionless experimentation, easy collaboration.
+
+    - **Enable Clean Workflows:** Use pre-commit & merge hooks for CI/CD workflows.
+
+    - **Resilient:** Recover from data issues faster with revert capability.
+
+  logo: /images/projects/lakefs.svg
+  introLogoVisible: true
+  gitHubRepoName: treeverse/lakeFS
+  youTubeVideoId: xThorxDzmrw 
