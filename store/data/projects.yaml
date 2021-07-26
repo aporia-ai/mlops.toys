@@ -1,3 +1,25 @@
+- name: Hypervector
+  buttonText: Try Hypervector
+  link: 'https://hypervector.io'
+  category: Model Testing
+  worksWellWith:
+    - [Github Actions]
+  description: >-
+    Provides API-powered **synthetic data test fixtures** for your tabular data-enabled features
+    — enabling regression and integration tests to be easily built and deployed for your
+    production ML models and data science components
+
+    - **Construct synthetic data** covering important behaviours, edge cases, and
+    under-represented areas of your input domain
+
+    - **Retrieve via dedicated endpoint** to your builds & continuous integration steps. No more data in version control.
+
+    - **Benchmark model output** to quickly detect regressions, or compare behaviours for model selection
+
+  logo: /images/projects/hypervector.png
+  introLogoVisible: true
+  gitHubRepoName: hypervectorio/hypervector-wrapper
+  youTubeVideoId: 877h1umtJAo
 - name: Syndicai
   buttonText: Try Syndicai
   link: 'https://syndicai.co'
@@ -10,21 +32,21 @@
   - [MLFLow]
   - [ClearML]
   description: >-
-    Syndicai is a cloud platform that deploys, manages, and scales any trained AI 
+    Syndicai is a cloud platform that deploys, manages, and scales any trained AI
     model in minutes with no configuration & infrastructure setup.
 
-    - **Easy to use** - You don't need to know to understand Docker & Kubernetes. 
+    - **Easy to use** - You don't need to know to understand Docker & Kubernetes.
     Platform Production-ready deployments from day one.
 
-    - **Highly flexible** - Customize every single step of the whole AI model 
+    - **Highly flexible** - Customize every single step of the whole AI model
     deployment workflow (from model wrappers to Kubernetes configuration manifests),
-    and integrate with tools you love. 
+    and integrate with tools you love.
 
-    - **Optimized for ML** - Run workload on highly optimized, cost-efficient, 
-    and secure infrastructure built specifically for high-performance ML models. 
+    - **Optimized for ML** - Run workload on highly optimized, cost-efficient,
+    and secure infrastructure built specifically for high-performance ML models.
 
-    - **Cloud, Framework agnostic** - Deploy ML models written in frameworks you 
-    love and run them on the cloud you want with no extensive and time-consuming setup. 
+    - **Cloud, Framework agnostic** - Deploy ML models written in frameworks you
+    love and run them on the cloud you want with no extensive and time-consuming setup.
   logo: /images/projects/syndicai.svg
   introLogoVisible: true
 - name: PrimeHub
@@ -995,4 +1017,4 @@
   logo: /images/projects/lakefs.svg
   introLogoVisible: true
   gitHubRepoName: treeverse/lakeFS
-  youTubeVideoId: xThorxDzmrw 
+  youTubeVideoId: xThorxDzmrw

@@ -9,6 +9,7 @@ export const state = () => ({
 		'Feature Store': ['#39DAA3', '#F0FBF7'],
 		'Experiment Tracking': ['#F09240', '#FCEEE4'],
 		'Model Monitoring': ['#AF72FD', '#E0D4F4'],
+    'Model Testing': ['#2b1048', '#E0D4F4'],
 		'Data Versioning': ['#60DFE8', '#DCF5F7'],
 		'Training Orchestration': ['#F23B27', '#FFF4F5'],
 		Explainability: ['#F6E278', '#FCF5E0'],
