@@ -227,7 +227,12 @@ export default {
 		// https://go.nuxtjs.dev/pwa
 		'@nuxtjs/pwa',
 		'@nuxtjs/markdownit',
+		'@nuxtjs/gtm',
 	],
+
+	gtm: {
+		id: 'GTM-53TSBBF',
+	},
 
 	svgSprite: {
 		input: '~/assets/icons',
