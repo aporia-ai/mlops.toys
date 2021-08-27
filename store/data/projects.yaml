@@ -1,3 +1,21 @@
+- name: WhyLabs
+  buttonText: Try WhyLabs for Free
+  link: 'https://whylabs.ai/'
+  category: Model Monitoring
+  description: >-
+    The WhyLabs Observability Platform enables any AI practitioner to set up AI monitoring in three easy steps. It follows the standard DevOps model of installing a lightweight logging agent (whylogs) alongside your model and sending data profiles to a fully self-service SaaS platform (WhyLabs). On the platform, you can analyze your profiles to see how your model is performing and get automatically get alerted on changes.
+    The platform includes:
+
+    - **An easy setup flow** so that you can start getting value right away
+
+    - **Automatic data drift detection and alerting** to prevent model performance degradation
+
+    - **Industry standard for data profiling** enabled by the open source "whylogs" library
+
+  logo: /images/projects/whylabs.png
+  introLogoVisible: true
+  gitHubRepoName: whylabs/whylogs
+  youTubeVideoId: UsDsLEpigBw
 - name: Hypervector
   buttonText: Try Hypervector
   link: 'https://hypervector.io'
@@ -32,21 +50,21 @@
   - [MLFLow]
   - [ClearML]
   description: >-
-    Syndicai is a cloud platform that deploys, manages, and scales any trained AI 
+    Syndicai is a cloud platform that deploys, manages, and scales any trained AI
     model in minutes with no configuration & infrastructure setup.
 
-    - **Easy to use** - You don't need to know to understand Docker & Kubernetes. 
+    - **Easy to use** - You don't need to know to understand Docker & Kubernetes.
     Platform Production-ready deployments from day one.
 
-    - **Highly flexible** - Customize every single step of the whole AI model 
+    - **Highly flexible** - Customize every single step of the whole AI model
     deployment workflow (from model wrappers to Kubernetes configuration manifests),
-    and integrate with tools you love. 
+    and integrate with tools you love.
 
-    - **Optimized for ML** - Run workload on highly optimized, cost-efficient, 
-    and secure infrastructure built specifically for high-performance ML models. 
+    - **Optimized for ML** - Run workload on highly optimized, cost-efficient,
+    and secure infrastructure built specifically for high-performance ML models.
 
-    - **Cloud, Framework agnostic** - Deploy ML models written in frameworks you 
-    love and run them on the cloud you want with no extensive and time-consuming setup. 
+    - **Cloud, Framework agnostic** - Deploy ML models written in frameworks you
+    love and run them on the cloud you want with no extensive and time-consuming setup.
   logo: /images/projects/syndicai.svg
   introLogoVisible: true
 - name: PrimeHub
@@ -1017,4 +1035,4 @@
   logo: /images/projects/lakefs.svg
   introLogoVisible: true
   gitHubRepoName: treeverse/lakeFS
-  youTubeVideoId: xThorxDzmrw 
+  youTubeVideoId: xThorxDzmrw
