@@ -1056,7 +1056,6 @@
 
     - Supports different file systems: local (e.g. NFS), Google Cloud Storage (GCS), Amazon S3, Minio or Azure Blob Storage
 
-    - OVMS is now implemented in C++ and provides scalability, low latency and high perormance
   logo: /images/projects/ovms.png
   introLogoVisible: true
   gitHubRepoName: openvinotoolkit/model_server
