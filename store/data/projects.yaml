@@ -1036,7 +1036,7 @@
   introLogoVisible: true
   gitHubRepoName: treeverse/lakeFS
   youTubeVideoId: xThorxDzmrw
-  name: OpenVINO™ Model Server
+- name: OpenVINO™ Model Server
   buttonText: Try OpenVINO™ Model Server
   link: https://github.com/openvinotoolkit/model_server
   category: Model Serving
