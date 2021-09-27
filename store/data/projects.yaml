@@ -1065,3 +1065,27 @@
   introLogoVisible: true
   gitHubRepoName: treeverse/lakeFS
   youTubeVideoId: xThorxDzmrw
+- name: OpenVINO™ Model Server
+  buttonText: Try OpenVINO™ Model Server
+  link: https://github.com/openvinotoolkit/model_server
+  category: Model Serving
+  competesWith:
+    - [Triton Inference Server]
+    - [Tensorflow Serving]
+    - [TorchServe]
+  description: >-
+    OpenVINO™ Model Server (OVMS) is a scalable, high-performance solution for serving machine learning models optimized for Intel® architectures.
+
+
+    - Simultanous serving of any model trained in a framework that is supported by OpenVINO
+
+    - The server implements gRPC and REST API framework with data serialization and deserialization using TensorFlow Serving API
+
+    - Uses OpenVINO™ as the inference execution provider
+
+    - Supports different file systems: local (e.g. NFS), Google Cloud Storage (GCS), Amazon S3, Minio or Azure Blob Storage
+
+  logo: /images/projects/ovms.png
+  introLogoVisible: true
+  gitHubRepoName: openvinotoolkit/model_server
+  youTubeVideoId: AfytPrAVdfc
