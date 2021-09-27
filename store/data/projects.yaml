@@ -1,3 +1,32 @@
+- name: Orchest
+  worksWellWith:
+    - [Jupyter Notebooks]
+    - [Self-Hosted]
+    - [Cloud]
+  buttonText: Try Orchest
+  link: 'https://orchest.io'
+  category: Training Orchestration
+  description: >-
+    Build data pipelines, the easy way!
+
+
+    No framework. No YAML. Just write Python and R code in Notebooks.
+
+
+    Features:
+
+    - **Visually construct** pipelines through our user-friendly UI
+
+    - **Code in Notebooks**
+
+    - Run any subset of a pipeline **directly or periodically**
+
+    - Easily define your dependencies to run on **any machine**
+
+  logo: /images/projects/orchest.png
+  introLogoVisible: true
+  gitHubRepoName: orchest/orchest
+  youTubeVideoId: BUpSVE2mtz4
 - name: WhyLabs
   buttonText: Try WhyLabs for Free
   link: 'https://whylabs.ai/'
