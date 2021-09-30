@@ -961,12 +961,10 @@
   buttonText: Try Iguazio
   link: 'https://www.iguazio.com/'
   categories:
+  - All-In-One
   - Model Serving
-  - Feature Store
   - Experiment Tracking
   - Model Monitoring
-  - Data Versioning
-  - Training Orchestration
   worksWellWith:
     - [Kubernetes]
     - [MLRun]
@@ -996,12 +994,9 @@
   buttonText: Try MLRun
   link: 'https://mlrun.org/'
   categories:
-  - Model Serving
+  - All-In-One
   - Feature Store
-  - Experiment Tracking
   - Model Monitoring
-  - Data Versioning
-  - Training Orchestration
   worksWellWith:
     - [Kubernetes]
     - [Iguazio]
