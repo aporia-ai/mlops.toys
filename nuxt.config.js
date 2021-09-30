@@ -85,8 +85,12 @@ export default {
 		fallback: true,
 		routes() {
 			const projectsJSON = yaml.load(fs.readFileSync('./store/data/projects.yaml', 'utf8'))
-			const categories = [...new Set(projectsJSON.map((project) => project.category))]
-
+      const categories = [...new Set(
+        [].concat.apply(
+          [],
+          projectsJSON.map((project) => project.categories)
+        )
+      )]
 			return categories.map((category) => `/${encodeUriParam(category)}`)
 		},
 	},

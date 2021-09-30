@@ -158,6 +158,7 @@ export default {
               _.intersection(this.selectedCategoriesVisual, project.categories)
                 .length > 0
         )
+        : this.projects
 		},
 	},
 	watch: {

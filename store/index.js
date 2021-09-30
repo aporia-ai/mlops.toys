@@ -12,8 +12,8 @@ export const state = () => ({
     'Model Testing': ['#2b1048', '#E0D4F4'],
     'Data Versioning': ['#60DFE8', '#DCF5F7'],
     'Training Orchestration': ['#F23B27', '#FFF4F5'],
-    'Explainability': ['#F6E278', '#FCF5E0'],
-    'All-In-One': ['#5936fa', '#FCF5E0'],
+    Explainability: ['#F6E278', '#FCF5E0'],
+    'All In One': ['#5936FA', '#FCF5E0'],
   },
   octokit: {},
 })
@@ -27,8 +27,8 @@ export const getters = {
       ...new Set(
         [].concat.apply(
           [],
-          state.projects.map((project) => project.categories)
-        )
+          state.projects.map((project) => project.categories),
+        ),
       ),
     ]
   },
@@ -40,7 +40,7 @@ export const getters = {
 					src: project.logo,
 					name: project.name,
 					class: project.introLogoClass,
-					color: state.categoryColors[project.category][0],
+					color: state.categoryColors[project.categories[0]],
 				})),
 			'name',
 			'asc',

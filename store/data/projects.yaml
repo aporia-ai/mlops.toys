@@ -965,9 +965,8 @@
   buttonText: Try Iguazio
   link: 'https://www.iguazio.com/'
   categories:
-  - All-In-One
+  - All In One
   - Model Serving
-  - Experiment Tracking
   - Model Monitoring
   worksWellWith:
     - [Kubernetes]
@@ -998,9 +997,9 @@
   buttonText: Try MLRun
   link: 'https://mlrun.org/'
   categories:
-  - All-In-One
+  - All In One
   - Feature Store
-  - Model Monitoring
+  - Experiment Tracking
   worksWellWith:
     - [Kubernetes]
     - [Iguazio]
