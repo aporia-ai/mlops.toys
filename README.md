@@ -16,10 +16,10 @@ To run the project locally: `npm run dev`
 
 ## Guidelines
 
-Please add / edit your project under [projects.yaml](store/data/projects.yaml)
-You may add logo assets [here](/images/projects/) and refer to them in the project definition
-Please make sure to add appropriate categories to your project, we ask that you limit each project to a maximum of 3 categories at this time
-A list of existing categories can be found [here](store/index.js#L6), please make sure to add appropriate color maping here if you find yourself adding a new category
+- Please add / edit your project under [projects.yaml](store/data/projects.yaml)
+- You may add logo assets [here](/images/projects/) and refer to them in the project definition
+- Please make sure to add appropriate categories to your project, we ask that you limit each project to a maximum of 3 categories at this time
+- A list of existing categories and their colour mapping can be found [here](store/index.js#L6), please make sure to add appropriate color maping here if you find yourself adding a new category
 
 
 Enjoy!
