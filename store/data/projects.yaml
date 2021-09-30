@@ -59,7 +59,8 @@
     - [Cloud]
   buttonText: Try Orchest
   link: 'https://orchest.io'
-  category: Training Orchestration
+  categories:
+  - Training Orchestration
   description: >-
     Build data pipelines, the easy way!
 
@@ -84,7 +85,8 @@
 - name: WhyLabs
   buttonText: Try WhyLabs for Free
   link: 'https://whylabs.ai/'
-  category: Model Monitoring
+  categories:
+  - Model Monitoring
   description: >-
     The WhyLabs Observability Platform enables any AI practitioner to set up AI monitoring in three easy steps. It follows the standard DevOps model of installing a lightweight logging agent (whylogs) alongside your model and sending data profiles to a fully self-service SaaS platform (WhyLabs). On the platform, you can analyze your profiles to see how your model is performing and get automatically get alerted on changes.
     The platform includes:
@@ -102,7 +104,8 @@
 - name: Hypervector
   buttonText: Try Hypervector
   link: 'https://hypervector.io'
-  category: Model Testing
+  categories:
+  - Model Testing
   worksWellWith:
     - [Github Actions]
   description: >-
@@ -124,7 +127,8 @@
 - name: Syndicai
   buttonText: Try Syndicai
   link: 'https://syndicai.co'
-  category: Model Serving
+  categories:
+  - Model Serving
   worksWellWith:
   - [Kubernetes]
   - [Grafana]
@@ -1093,7 +1097,8 @@
   introLogoVisible: true
   youTubeVideoId: jnrSd2nqCWg
 - name: Spock
-  category: Training Orchestration
+  categories:
+  - Training Orchestration
   competesWith:
     - [Hydra]
   buttonText: Try Spock
@@ -1127,7 +1132,8 @@
   introLogoVisible: true
   gitHubRepoName: fidelity/spock
 - name: Stoke
-  category: Training Orchestration
+  categories:
+  - Training Orchestration
   competesWith:
     - [HuggingFace Accelerate]
     - [PyTorch Lightning (Accelerate)]
@@ -1150,7 +1156,8 @@
   introLogoVisible: true
   gitHubRepoName: fidelity/stoke
 - name: lakeFS
-  category: Data Versioning
+  categories:
+  - Data Versioning
   buttonText: Try lakeFS!
   link: https://github.com/treeverse/lakeFS
   description: >-
@@ -1175,7 +1182,8 @@
 - name: OpenVINO™ Model Server
   buttonText: Try OpenVINO™ Model Server
   link: https://github.com/openvinotoolkit/model_server
-  category: Model Serving
+  categories:
+  - Model Serving
   competesWith:
     - [Triton Inference Server]
     - [Tensorflow Serving]
