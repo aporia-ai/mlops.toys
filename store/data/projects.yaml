@@ -1,3 +1,25 @@
+- name: Spell
+  worksWellWith:
+    - [Jupyter Notebooks]
+    - [Kubernetes]
+    - [Grafana]
+    - [Weights and Biases]
+    - [Arize]
+  buttonText: Try Spell
+  link: 'https://spell.ml/pricing'
+  category: Training Orchestration
+  description: >-
+    Spell is an **end-to-end deep learning platform** that automates complex ML infrastructure and operational work required to train and deploy AI models. Spell is fully hybrid-cloud, and can deploy easily into any cloud or on-prem hardware.
+
+
+    - **Run Orchestration:** Automate cloud training execution from a user's local CLI as a tracked and reproducible experiment, capturing all outputs and comprehensive metrics.
+
+    - **Model Serving:** Serve models directly into production from a model registry, complete with lineage metadata, backed by a managed Kubernetes cluster for maximum scalability and robustness.
+
+    - **Experiment Management:** Manage, organize, collaborate on, and visualize your entire ML training portfolio in the cloud, under one centralized control pane.
+  logo: /images/projects/spell.svg
+  introLogoVisible: true
+  youTubeVideoId: s2E5sfmEbec
 - name: Orchest
   worksWellWith:
     - [Jupyter Notebooks]
