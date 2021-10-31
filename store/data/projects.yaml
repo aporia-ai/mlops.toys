@@ -1,3 +1,25 @@
+- name: Spell
+  worksWellWith:
+    - [Jupyter Notebooks]
+    - [Kubernetes]
+    - [Grafana]
+    - [Weights and Biases]
+    - [Arize]
+  buttonText: Try Spell
+  link: 'https://spell.ml/pricing'
+  category: Training Orchestration
+  description: >-
+    Spell is an **end-to-end deep learning platform** that automates complex ML infrastructure and operational work required to train and deploy AI models. Spell is fully hybrid-cloud, and can deploy easily into any cloud or on-prem hardware.
+
+
+    - **Run Orchestration:** Automate cloud training execution from a user's local CLI as a tracked and reproducible experiment, capturing all outputs and comprehensive metrics.
+
+    - **Model Serving:** Serve models directly into production from a model registry, complete with lineage metadata, backed by a managed Kubernetes cluster for maximum scalability and robustness.
+
+    - **Experiment Management:** Manage, organize, collaborate on, and visualize your entire ML training portfolio in the cloud, under one centralized control pane.
+  logo: /images/projects/spell.svg
+  introLogoVisible: true
+  youTubeVideoId: s2E5sfmEbec
 - name: Katonic.ai
   worksWellWith:
     - [Jupyter Notebooks]
@@ -10,9 +32,9 @@
   link: 'https://katonic.ai'
   category: Training Orchestration
   description: >-
-    Katonic MLOps Platform is a collaborative platform with a Unified UI to manage all data science activities in one place and introduce MLOps practice 
+    Katonic MLOps Platform is a collaborative platform with a Unified UI to manage all data science activities in one place and introduce MLOps practice
     into the production systems of customers and developers. It is a collection of cloud-native tools for all of these stages of MLOps:
-    
+
     - Data exploration
 
     - Feature preparation
@@ -22,9 +44,9 @@
     - Model serving, testing and versioning
 
 
-    Katonic is for both data scientists and data engineers looking to build production-grade machine learning implementations and can be 
+    Katonic is for both data scientists and data engineers looking to build production-grade machine learning implementations and can be
     run either locally in your development environment or on a production cluster.
-    Katonic provides a unified system—leveraging Kubernetes for containerization and scalability for the portability and repeatability of 
+    Katonic provides a unified system—leveraging Kubernetes for containerization and scalability for the portability and repeatability of
     its pipelines.
 
   logo: /images/projects/katonic.png
