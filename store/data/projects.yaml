@@ -1,3 +1,35 @@
+- name: Katonic.ai
+  worksWellWith:
+    - [Jupyter Notebooks]
+    - [Cloud]
+    - [Python]
+    - [R-Studio]
+    - [Tensorflow]
+    - [Spark]
+  buttonText: Try Katonic.ai
+  link: 'https://katonic.ai'
+  category: Training Orchestration
+  description: >-
+    Katonic MLOps Platform is a collaborative platform with a Unified UI to manage all data science activities in one place and introduce MLOps practice 
+    into the production systems of customers and developers. It is a collection of cloud-native tools for all of these stages of MLOps:
+    
+    - Data exploration
+
+    - Feature preparation
+
+    - Model training/tuning
+
+    - Model serving, testing and versioning
+
+
+    Katonic is for both data scientists and data engineers looking to build production-grade machine learning implementations and can be 
+    run either locally in your development environment or on a production cluster.
+    Katonic provides a unified system—leveraging Kubernetes for containerization and scalability for the portability and repeatability of 
+    its pipelines.
+
+  logo: /images/projects/katonic.png
+  introLogoVisible: true
+  youTubeVideoId: cGl5CqSiPLw
 - name: Orchest
   worksWellWith:
     - [Jupyter Notebooks]
