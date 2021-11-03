@@ -1,6 +1,7 @@
 <img src="assets/icons/logo.png" width="100" />
 
-Curated list of useful MLOps projects, tools and resources. 
+Curated list of useful MLOps projects, tools and resources.
+<p align="center">Made with :heart: by <a href="https://www.aporia.com?utm_source=github&utm_medium=github&utm_campaign=mlops_toys" target="_blank">Aporia</a></p>
 
 **Visit at [https://mlops.toys](https://mlops.toys)!**
 
