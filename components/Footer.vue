@@ -24,7 +24,7 @@
 				</div>
 				<div>by</div>
 				<a
-					href="https://www.aporia.com?utm_source=mlops_toys&utm_medium=inhouse_application&utm_campaign=mlops_toys"
+					href="https://www.aporia.com?utm_source=mlops-toys&utm_medium=inhouse-application&utm_campaign=mlops-toys"
 					target="_blank"
 					class="block transition-opacity hover:opacity-70"
 					@click="$gtagEvents.externalLinkClick('https://aporia.com')"
