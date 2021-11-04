@@ -226,7 +226,6 @@
   logo: /images/projects/determined.svg
   introLogoVisible: true
   gitHubRepoName: determined-ai/determined
-  youTubeVideoId: YsEE-eiWkeE
 - name: Flyte
   buttonText: Try Flyte
   link: 'https://flyte.org/'
@@ -820,7 +819,6 @@
   logo: /images/projects/shap.svg
   introLogoVisible: true
   gitHubRepoName: slundberg/shap
-  youTubeVideoId: ylytZegK--I
 - name: Fiddler
   buttonText: Try Fiddler
   link: 'https://www.fiddler.ai/'
