@@ -7,7 +7,8 @@
     - [Arize]
   buttonText: Try Spell
   link: 'https://spell.ml/pricing'
-  category: Training Orchestration
+  categories:
+  - Training Orchestration
   description: >-
     Spell is an **end-to-end deep learning platform** that automates complex ML infrastructure and operational work required to train and deploy AI models. Spell is fully hybrid-cloud, and can deploy easily into any cloud or on-prem hardware.
 
@@ -30,7 +31,8 @@
     - [Spark]
   buttonText: Try Katonic.ai
   link: 'https://katonic.ai'
-  category: Training Orchestration
+  categories:
+  - Training Orchestration
   description: >-
     Katonic MLOps Platform is a collaborative platform with a Unified UI to manage all data science activities in one place and introduce MLOps practice
     into the production systems of customers and developers. It is a collection of cloud-native tools for all of these stages of MLOps:
