@@ -44,27 +44,29 @@
 					</a>
 				</div>
 			</div>
-      <!-- Categories -->
-      <div class="-m-1 flex lg:mr-0 flex-1">
-        <table class="lg:block flex-grow">
-          <tr class="row lg:block flex flex-wrap justify-end">
-            <div
-              v-for="(item, itemKey) in project.categories"
-              :key="itemKey"
-              class="py-1 px-2.5 flex-wrap rounded border border-solid border-gray-500table-item m-1"
-              target="_blank"
-            >
-              <span
-                class="text-sm lg:text-xs text-gray-400 flex-shrink-0 whitespace-nowrap mt-1.5 lg:mt-2"
-                >{{ item }}
-              </span>
-            </div>
-          </tr>
-        </table>
+			<!-- Categories -->
+			<div class="-m-1 flex lg:mr-0 flex-1">
+				<table class="lg:block flex-grow">
+					<tr class="row lg:block flex flex-wrap justify-end">
+						<td class="lg:block flex flex-wrap">
+							<div
+								v-for="(item, itemKey) in project.categories"
+								:key="itemKey"
+								class="py-1 px-2.5 flex-wrap m-1"
+								target="_blank"
+							>
+								<span
+									class="text-sm lg:text-xs text-gray-400 flex-shrink-0 whitespace-nowrap mt-1.5 lg:mt-2"
+								>{{ item }}
+								</span>
+							</div>
+						</td>
+					</tr>
+				</table>
 			</div>
 		</div>
 
-		<!-- Works with -->
+		<!-- Works Well With -->
 		<div v-if="project.worksWellWith || project.competesWith" class="mt-4 pb-6 border-b border-gray-200">
 			<table class="lg:block">
 				<tr v-if="project.worksWellWith" class="row lg:block">
