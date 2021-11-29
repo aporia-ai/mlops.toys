@@ -1,5 +1,5 @@
 <template>
-  <Nuxt />
+	<Nuxt />
 </template>
 
 <script>
@@ -12,24 +12,25 @@ import { Octokit } from '@octokit/rest'
 import projects from '~/store/data/projects.yaml'
 
 export default {
-  mounted() {
-    try {
-      const projectsJSON = yaml.load(projects)
-      this.setProjects(projectsJSON)
-    } catch (e) {
-      console.error(e)
-    }
+	created() {
+		try {
+			const projectsJSON = yaml.load(projects)
+			this.setProjects(projectsJSON)
+		} catch (e) {
+			// eslint-disable-next-line no-console
+			console.error(e)
+		}
 
-    this.octoAuth()
-  },
-  methods: {
-    ...mapMutations({
-      setProjects: 'setProjects',
-      setOctokit: 'setOctokit',
-    }),
-    octoAuth() {
-      this.setOctokit(new Octokit())
-    },
-  },
+		this.octoAuth()
+	},
+	methods: {
+		...mapMutations({
+			setProjects: 'setProjects',
+			setOctokit: 'setOctokit',
+		}),
+		octoAuth() {
+			this.setOctokit(new Octokit())
+		},
+	},
 }
 </script>

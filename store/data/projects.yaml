@@ -1,10 +1,162 @@
-- name: PrimeHub 
+- name: Spell
+  worksWellWith:
+    - [Jupyter Notebooks]
+    - [Kubernetes]
+    - [Grafana]
+    - [Weights and Biases]
+    - [Arize]
+  buttonText: Try Spell
+  link: 'https://spell.ml/pricing'
+  category: Training Orchestration
+  description: >-
+    Spell is an **end-to-end deep learning platform** that automates complex ML infrastructure and operational work required to train and deploy AI models. Spell is fully hybrid-cloud, and can deploy easily into any cloud or on-prem hardware.
+
+
+    - **Run Orchestration:** Automate cloud training execution from a user's local CLI as a tracked and reproducible experiment, capturing all outputs and comprehensive metrics.
+
+    - **Model Serving:** Serve models directly into production from a model registry, complete with lineage metadata, backed by a managed Kubernetes cluster for maximum scalability and robustness.
+
+    - **Experiment Management:** Manage, organize, collaborate on, and visualize your entire ML training portfolio in the cloud, under one centralized control pane.
+  logo: /images/projects/spell.svg
+  introLogoVisible: true
+  youTubeVideoId: s2E5sfmEbec
+- name: Katonic.ai
+  worksWellWith:
+    - [Jupyter Notebooks]
+    - [Cloud]
+    - [Python]
+    - [R-Studio]
+    - [Tensorflow]
+    - [Spark]
+  buttonText: Try Katonic.ai
+  link: 'https://katonic.ai'
+  category: Training Orchestration
+  description: >-
+    Katonic MLOps Platform is a collaborative platform with a Unified UI to manage all data science activities in one place and introduce MLOps practice
+    into the production systems of customers and developers. It is a collection of cloud-native tools for all of these stages of MLOps:
+
+    - Data exploration
+
+    - Feature preparation
+
+    - Model training/tuning
+
+    - Model serving, testing and versioning
+
+
+    Katonic is for both data scientists and data engineers looking to build production-grade machine learning implementations and can be
+    run either locally in your development environment or on a production cluster.
+    Katonic provides a unified system—leveraging Kubernetes for containerization and scalability for the portability and repeatability of
+    its pipelines.
+
+  logo: /images/projects/katonic.png
+  introLogoVisible: true
+  youTubeVideoId: cGl5CqSiPLw
+- name: Orchest
+  worksWellWith:
+    - [Jupyter Notebooks]
+    - [Self-Hosted]
+    - [Cloud]
+  buttonText: Try Orchest
+  link: 'https://orchest.io'
+  category: Training Orchestration
+  description: >-
+    Build data pipelines, the easy way!
+
+
+    No framework. No YAML. Just write Python and R code in Notebooks.
+
+
+    Features:
+
+    - **Visually construct** pipelines through our user-friendly UI
+
+    - **Code in Notebooks**
+
+    - Run any subset of a pipeline **directly or periodically**
+
+    - Easily define your dependencies to run on **any machine**
+
+  logo: /images/projects/orchest.png
+  introLogoVisible: true
+  gitHubRepoName: orchest/orchest
+  youTubeVideoId: BUpSVE2mtz4
+- name: WhyLabs
+  buttonText: Try WhyLabs for Free
+  link: 'https://whylabs.ai/'
+  category: Model Monitoring
+  description: >-
+    The WhyLabs Observability Platform enables any AI practitioner to set up AI monitoring in three easy steps. It follows the standard DevOps model of installing a lightweight logging agent (whylogs) alongside your model and sending data profiles to a fully self-service SaaS platform (WhyLabs). On the platform, you can analyze your profiles to see how your model is performing and get automatically get alerted on changes.
+    The platform includes:
+
+    - **An easy setup flow** so that you can start getting value right away
+
+    - **Automatic data drift detection and alerting** to prevent model performance degradation
+
+    - **Industry standard for data profiling** enabled by the open source "whylogs" library
+
+  logo: /images/projects/whylabs.png
+  introLogoVisible: true
+  gitHubRepoName: whylabs/whylogs
+  youTubeVideoId: UsDsLEpigBw
+- name: Hypervector
+  buttonText: Try Hypervector
+  link: 'https://hypervector.io'
+  category: Model Testing
+  worksWellWith:
+    - [Github Actions]
+  description: >-
+    Provides API-powered **synthetic data test fixtures** for your tabular data-enabled features
+    — enabling regression and integration tests to be easily built and deployed for your
+    production ML models and data science components
+
+    - **Construct synthetic data** covering important behaviours, edge cases, and
+    under-represented areas of your input domain
+
+    - **Retrieve via dedicated endpoint** to your builds & continuous integration steps. No more data in version control.
+
+    - **Benchmark model output** to quickly detect regressions, or compare behaviours for model selection
+
+  logo: /images/projects/hypervector.png
+  introLogoVisible: true
+  gitHubRepoName: hypervectorio/hypervector-wrapper
+  youTubeVideoId: 877h1umtJAo
+- name: Syndicai
+  buttonText: Try Syndicai
+  link: 'https://syndicai.co'
+  category: Model Serving
+  worksWellWith:
+  - [Kubernetes]
+  - [Grafana]
+  - [Nvidia Triton]
+  - [Intel OpenVINO]
+  - [MLFLow]
+  - [ClearML]
+  description: >-
+    Syndicai is a cloud platform that deploys, manages, and scales any trained AI
+    model in minutes with no configuration & infrastructure setup.
+
+    - **Easy to use** - You don't need to know to understand Docker & Kubernetes.
+    Platform Production-ready deployments from day one.
+
+    - **Highly flexible** - Customize every single step of the whole AI model
+    deployment workflow (from model wrappers to Kubernetes configuration manifests),
+    and integrate with tools you love.
+
+    - **Optimized for ML** - Run workload on highly optimized, cost-efficient,
+    and secure infrastructure built specifically for high-performance ML models.
+
+    - **Cloud, Framework agnostic** - Deploy ML models written in frameworks you
+    love and run them on the cloud you want with no extensive and time-consuming setup.
+  logo: /images/projects/syndicai.svg
+  introLogoVisible: true
+- name: PrimeHub
   buttonText: Try PrimeHub
   link: https://github.com/InfuseAI/primehub
   category: Training Orchestration
   description: >-
     PrimeHub, an open-source pluggable MLOps platform on the top of Kubernetes for teams of data scientists and administrators.
-    PrimeHub equips enterprises with consistent yet flexible tools to develop, train, and deploy ML models at scale. 
+    PrimeHub equips enterprises with consistent yet flexible tools to develop, train, and deploy ML models at scale.
     By improving the iterative process of data science, data teams can collaborate closely and innovate fast.
     
     - Cluster Computing with multi-tenancy
@@ -22,7 +174,7 @@
   logo: /images/projects/primehub.png
   introLogoVisible: true
   gitHubRepoName: InfuseAI/primehub
-  youTubeVideoId: 3ZOPXR9L2Ho
+  youTubeVideoId: PL2J6KPijdw
 - name: DAGsHub
   buttonText: Try DAGsHub
   link: 'https://dagshub.com/'
@@ -74,7 +226,6 @@
   logo: /images/projects/determined.svg
   introLogoVisible: true
   gitHubRepoName: determined-ai/determined
-  youTubeVideoId: YsEE-eiWkeE
 - name: Flyte
   buttonText: Try Flyte
   link: 'https://flyte.org/'
@@ -313,7 +464,6 @@
   link: 'https://clear.ml/'
   category: Experiment Tracking
   description: >-
-
     ClearML is an open source suite of tools that automates preparing, executing, and
     analyzing machine learning experiments.
 
@@ -669,7 +819,6 @@
   logo: /images/projects/shap.svg
   introLogoVisible: true
   gitHubRepoName: slundberg/shap
-  youTubeVideoId: ylytZegK--I
 - name: Fiddler
   buttonText: Try Fiddler
   link: 'https://www.fiddler.ai/'
@@ -779,8 +928,8 @@
   category: Feature Store
   description: >-
     The Iguazio Data Science Platform accelerates and scales development, deployment and management of your AI
-    applications with MLOps and end-to-end automation of machine learning pipelines. The platform includes an 
-    online and offline feature store, fully integrated with automated model monitoring and drift detection, model serving 
+    applications with MLOps and end-to-end automation of machine learning pipelines. The platform includes an
+    online and offline feature store, fully integrated with automated model monitoring and drift detection, model serving
     and dynamic scaling capabilities, all packaged in an open and managed platform.
 
     - **Ingest Data from Any Source and Build Reusable Online and Offline Features:** Ingest and unify unstructured
@@ -859,7 +1008,7 @@
   category: Model Serving
   description: >-
     A command-line utility to train and deploy Machine Learning and Deep Learning models on AWS SageMaker in a few simple steps.
-    
+
 
     Key features:
 
@@ -898,27 +1047,97 @@
     spock is a framework that helps manage complex parameter configurations during research and development of Python applications. spock lets you focus on the code you need to write instead of re-implementing boilerplate code like creating ArgParsers, reading configuration files, implementing traceability etc. In short, spock configurations are defined by simple and familiar class-based structures. This allows spock to support inheritance, read from multiple markdown formats, and allow hierarchical configuration by composition.
 
     Features:
-    
+
     - **Simple Declaration:** Type checked parameters are defined within a @spock decorated class. Supports required/optional and automatic defaults.
-    
+
     - **Easily Managed Parameter Groups:** Each class automatically generates its own object within a single namespace.
-    
+
     - **Parameter Inheritance:** Classes support inheritance allowing for complex configurations derived from a common base set of parameters.
-    
+
     - **Complex Types:** Nested Lists/Tuples, List/Tuples of Enum of @spock classes, List of repeated @spock classes
-    
+
     - **Multiple Configuration File Types:** Configurations are specified from YAML, TOML, or JSON files.
-    
+
     - **Hierarchical Configuration:** Compose from multiple configuration files via simple include statements.
-    
+
     - **Command-Line Overrides:** Quickly experiment by overriding a value with automatically generated command line arguments.
-    
+
     - **Immutable:** All classes are frozen preventing any misuse or accidental overwrites (to the extent they can be in Python).
-    
+
     - **Tractability and Reproducibility:** Save runtime parameter configuration to YAML, TOML, or JSON with a single chained command (with extra runtime info such as Git info, Python version, machine FQDN, etc). The saved markdown file can be used as the configuration input to reproduce prior runtime configurations.
-    
+
     - **S3 Addon:** Automatically detects s3:// URI(s) and handles loading and saving spock configuration files when an active boto3.Session is passed in (plus any additional S3Transfer configurations)
-    
+
   logo: /images/projects/spock.png
   introLogoVisible: true
   gitHubRepoName: fidelity/spock
+- name: Stoke
+  category: Training Orchestration
+  competesWith:
+    - [HuggingFace Accelerate]
+    - [PyTorch Lightning (Accelerate)]
+  buttonText: Try Stoke
+  link: https://github.com/fidelity/stoke
+  description: >-
+    stoke is a lightweight wrapper for PyTorch that provides a simple declarative API for context switching between devices (e.g. CPU, GPU), distributed modes, mixed-precision, and PyTorch extensions. This allows you to switch from local full-precision CPU to mixed-precision distributed multi-GPU with extensions (like optimizer state sharding) by simply changing a few declarative flags. Additionally, stoke exposes configuration settings for every underlying backend for those that want configurability and raw access to the underlying libraries. In short, stoke is the best of PyTorch Lightning Accelerators disconnected from the rest of PyTorch Lightning. Write whatever PyTorch code you want, but leave device and backend context switching to stoke.
+
+    Supports:
+
+    - **Devices:** CPU, GPU, multi-GPU
+
+    - **Distributed:** DDP, Horovod, deepspeed (via DDP)
+
+    - **Mixed-Precision:** AMP, Nvidia Apex, deepspeed (custom APEX like backend)
+
+    - **Extensions:** fairscale (Optimizer State Sharding and Sharded DDP), deepspeed (ZeRO Stage 0-3, etc.)
+
+  logo: /images/projects/stoke.png
+  introLogoVisible: true
+  gitHubRepoName: fidelity/stoke
+- name: lakeFS
+  category: Data Versioning
+  buttonText: Try lakeFS!
+  link: https://github.com/treeverse/lakeFS
+  description: >-
+    lakeFS is an open-source data lake management platform that transforms your object storage into a Git-like repository. lakeFS enables you to manage your data lake the way you manage your code. Run parallel pipelines for experimentation and CI/CD for your data.
+
+    Features:
+
+    - **Scalable:** Version control data at exabyte scale.
+
+    - **Flexible:** Run git operations like branch, commit, and  merge over your data in any storage service.
+
+    - **Develop Faster:** Zero copy branching for frictionless experimentation, easy collaboration.
+
+    - **Enable Clean Workflows:** Use pre-commit & merge hooks for CI/CD workflows.
+
+    - **Resilient:** Recover from data issues faster with revert capability.
+
+  logo: /images/projects/lakefs.svg
+  introLogoVisible: true
+  gitHubRepoName: treeverse/lakeFS
+  youTubeVideoId: xThorxDzmrw
+- name: OpenVINO™ Model Server
+  buttonText: Try OpenVINO™ Model Server
+  link: https://github.com/openvinotoolkit/model_server
+  category: Model Serving
+  competesWith:
+    - [Triton Inference Server]
+    - [Tensorflow Serving]
+    - [TorchServe]
+  description: >-
+    OpenVINO™ Model Server (OVMS) is a scalable, high-performance solution for serving machine learning models optimized for Intel® architectures.
+
+
+    - Simultanous serving of any model trained in a framework that is supported by OpenVINO
+
+    - The server implements gRPC and REST API framework with data serialization and deserialization using TensorFlow Serving API
+
+    - Uses OpenVINO™ as the inference execution provider
+
+    - Supports different file systems: local (e.g. NFS), Google Cloud Storage (GCS), Amazon S3, Minio or Azure Blob Storage
+
+  logo: /images/projects/ovms.png
+  introLogoVisible: true
+  gitHubRepoName: openvinotoolkit/model_server
+  youTubeVideoId: AfytPrAVdfc
