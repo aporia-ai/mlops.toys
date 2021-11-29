@@ -158,7 +158,7 @@
     PrimeHub, an open-source pluggable MLOps platform on the top of Kubernetes for teams of data scientists and administrators.
     PrimeHub equips enterprises with consistent yet flexible tools to develop, train, and deploy ML models at scale.
     By improving the iterative process of data science, data teams can collaborate closely and innovate fast.
-
+    
     - Cluster Computing with multi-tenancy
 
     - One-Click Notebook Environments
@@ -174,7 +174,7 @@
   logo: /images/projects/primehub.png
   introLogoVisible: true
   gitHubRepoName: InfuseAI/primehub
-  youTubeVideoId: 3ZOPXR9L2Ho
+  youTubeVideoId: PL2J6KPijdw
 - name: DAGsHub
   buttonText: Try DAGsHub
   link: 'https://dagshub.com/'
