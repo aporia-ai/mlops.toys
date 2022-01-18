@@ -51,7 +51,7 @@
 
   logo: /images/projects/katonic.png
   introLogoVisible: true
-  youTubeVideoId: cGl5CqSiPLw
+  youTubeVideoId: E7sWBWrfpOk
 - name: Orchest
   worksWellWith:
     - [Jupyter Notebooks]
