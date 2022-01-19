@@ -175,28 +175,31 @@
   introLogoVisible: true
   gitHubRepoName: InfuseAI/primehub
   youTubeVideoId: PL2J6KPijdw
-- name: DAGsHub
-  buttonText: Try DAGsHub
+- name: DagsHub
+  buttonText: Try DagsHub
   link: 'https://dagshub.com/'
-  category: Data Versioning
+  category: Data Versioning, Experiment Tracking
   description: >-
-    DAGsHub enables data scientists and ML engineers to work together, effectively.
+    DagsHub enables data scientists and ML engineers to work together, effectively.
     Integrating open-source tools like Git, DVC, MLflow, and Jenkins so that you can
     track and version code, data, models, pipelines, and experiments in one place.
 
-    - **Your project in one place**: Manage your code, notebooks, data, models, pipelines, and
-    experiments and easily connect to plugins for automation, all with open source tools and open formats.
+    - **Your project in one place**: Manage your code, notebooks, data, models, pipelines, experiments, and annotations and easily connect to plugins for automation. All with open source tools and open formats.
 
-    - **Zero configuration**: Don't waste time on DevOps heavy lifting. Each DAGsHub project comes with a free,
-    built-in DVC data storage and MLflow server, with team access controls, so you can just add the URL, and get to work.
+    - **Zero configuration**: Don't waste time on DevOps heavy lifting. Each DagsHub project comes with a free,
+    built-in DVC data storage, MLflow server, and a Label Studio instance, with team access controls. You can just add the URL, and get to work!
 
-    - **Diff, compare, and review anything**: DAGsHub lets you diff Jupyter notebooks, tables, images, experiments, and even MRI data,
-    so you can compare apples to apples, review, and make sense of your work.
+    - **Diff, compare, and review anything**: DagsHub lets you compare and diff all the things data scientists use.
+    Diff Jupyter notebooks, compare table versions, annotations, metadata, even MRI images. All you need to do is push your data to DagsHub Storage.
 
-    - **Reproducibility is a click away**: Get all components of an experiment on your system. It's as easy as `git checkout`.
+    - **Reproducibility made possible**: Version everything. Explore relationships between data versions, experiments, and get a graph of your project history.
+    When you find a result you want to reproduce, you can fetch all the code, artifacts and configuration with one command.
+
+    - **Manage the labeling process easily, no DevOps required**: DagsHub Annotations lets you create a Label Studio instance with a single click, automatically synced with the datasets tracked on DagsHub Storage.
+    Version the state of your annotations using Git with the Commit button.
   logo: /images/projects/dagshub.svg
   introLogoVisible: true
-  youTubeVideoId: lrzdqEwzoo8
+  youTubeVideoId: K3r9AXddrRU
 - name: Determined
   buttonText: Try Determined
   link: 'https://determined.ai/'
