@@ -180,8 +180,7 @@
   link: 'https://dagshub.com/'
   category: Data Versioning
   description: >-
-    **What is DagsHub?**:
-    It's like GitHub for ML. A platform where you can build DS projects, using a combo of popular open source tools like Git, 
+    **What is DagsHub?** It's like GitHub for ML. A platform where you can build DS projects, using a combo of popular open source tools like Git, 
     DVC (data, model & pipeline versioning), MLflow (experiment tracking), Jenkins (Automations), and more.
 
     - **Your project in one place**: Manage your code, notebooks, data, models, pipelines, experiments, and annotations and easily connect to plugins for automation. All with open source tools and open formats.
