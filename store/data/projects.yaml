@@ -178,11 +178,11 @@
 - name: DagsHub
   buttonText: Try DagsHub
   link: 'https://dagshub.com/'
-  category: Data Versioning, Experiment Tracking
+  category: Data Versioning
   description: >-
-    DagsHub enables data scientists and ML engineers to work together, effectively.
-    Integrating open-source tools like Git, DVC, MLflow, and Jenkins so that you can
-    track and version code, data, models, pipelines, and experiments in one place.
+    **What is DagsHub?**:
+    It's like GitHub for ML. A platform where you can build DS projects, using a combo of popular open source tools like Git, 
+    DVC (data, model & pipeline versioning), MLflow (experiment tracking), Jenkins (Automations), and more.
 
     - **Your project in one place**: Manage your code, notebooks, data, models, pipelines, experiments, and annotations and easily connect to plugins for automation. All with open source tools and open formats.
 
