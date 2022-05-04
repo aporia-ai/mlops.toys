@@ -1141,3 +1141,54 @@
   introLogoVisible: true
   gitHubRepoName: openvinotoolkit/model_server
   youTubeVideoId: AfytPrAVdfc
+- name: ZenML
+  worksWellWith:
+    - [Kubeflow]
+    - [Airflow]
+    - [AWS/GCP/Azure]
+    - [MLFlow]
+    - [Tensorflow]
+    - [Pytorch]
+  buttonText: Try ZenML
+  link: https://github.com/zenml-io/zenml
+  category: Training Orchestration
+  description: >-
+    ZenML is an extensible, open-source MLOps framework to create production-ready machine learning pipelines. Built for data scientists, 
+    it has a simple, flexible syntax, is cloud- and tool-agnostic, and has interfaces/abstractions that are catered towards ML workflows.
+    
+
+    **Features**:
+
+    - Use Caching across (Pipelines As) Experiments
+
+    - Leverage Powerful Integrations (30+ Integrations)
+
+    - Scale to the Cloud
+
+    - Visualize the Steps of your Pipeline
+
+    - Visualize Statistics
+
+    - Introspect your Pipeline Results
+    
+    - Configure Pipeline Runs with YAML Code
+
+
+    **Why should I use ZenML**:
+    
+    - Reproducibility of training and inference workflows
+
+    - Plug-and-play integrations: bring all your favorite tools together
+
+    - A simple and clear way to represent the steps of your pipeline in code
+
+    - Easy switching between local and cloud stacks
+
+    - Painless deployment and configuration of infrastructure
+
+    - Scale up your stack transparently and logically to suit your training and deployment needs.
+
+
+  logo: /images/projects/zenml.png
+  introLogoVisible: true
+  gitHubRepoName: zenml-io/zenml
