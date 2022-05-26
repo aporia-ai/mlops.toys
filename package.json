@@ -31,7 +31,7 @@
     "node-sass": "^5.0.0",
     "nuxt": "^2.15.7",
     "raw-loader": "^4.0.2",
-    "sass": "^1.35.1",
+    "sass": "^1.51.0",
     "sass-loader": "^10.1.1",
     "shade-blend-color": "^1.0.0",
     "vue": "^2.6.14",
