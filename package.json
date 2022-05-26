@@ -22,7 +22,7 @@
     "@nuxtjs/pwa": "^3.3.5",
     "@nuxtjs/svg-sprite": "^0.5.2",
     "@octokit/auth-app": "^3.5.1",
-    "@octokit/rest": "^18.5.6",
+    "@octokit/rest": "^18.12.0",
     "@tailwindcss/aspect-ratio": "^0.2.0",
     "core-js": "^3.15.2",
     "gsap": "^3.7.0",
