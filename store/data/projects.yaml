@@ -1027,15 +1027,14 @@
   link: 'https://valohai.com/'
   category: Training Orchestration
   description: >-
-    Valohai is an MLOps platform that handles machine orchestration, automatic reproducibility and deployment.
+    Valohai is the MLOps platform purpose-built for ML Pioneers, giving them everything they've been missing, in one platform that just makes sense. Now they run thousands of experiments at the click of a button – creating data they trust. All while using the tools they love to build things to last. And with Valohai, ML teams easily collaborate on anything from models to metrics. 
 
-    - **Technology agnostic:** Valohai runs everything in Docker containers so that you can run almost anything on it.
+    - **Knowledge repository:** Valohai automatically tracks every asset from code and data to logs and hyperparameters, offering full lineage of how the dataset were generated and models were trained. In Valohai, all the runs are reproducible by design.
 
-    - **Runs on any cloud:** Valohai natively supports Azure, AWS, GCP and OpenStack.
+    - **Smart orchestration:** Valohai allows you to easily run on the powerful cloud machines with a single click (UI) or a single command (CLI & API). Model deployment, complex multi-cloud pipelines, and massive grid searches are all handled optimally by the auto-scaling queue.
 
-    - **API, CLI, GUI and Jupyter integration:** Valohai integrates to almost any workflow through its many interfaces.
+    - **Developer core:** Valohai’s streamlined APIs ensure that steps integrate together, regardless of who wrote the the code. Anything you can put in a Docker container, you can run in Valohai.
 
-    - **Managed service:** Seasoned DevOps engineers manage Valohai – so you don’t have to be one.
   logo: /images/projects/valohai.svg
   introLogoVisible: true
   youTubeVideoId: jnrSd2nqCWg
