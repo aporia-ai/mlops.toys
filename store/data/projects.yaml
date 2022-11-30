@@ -485,7 +485,7 @@
 - name: CML
   buttonText: Try CML
   link: 'http://cml.dev/'
-  category: Experiment Tracking
+  category: Training Orchestration
   description: >-
     Open-source library for implementing CI/CD in machine learning projects.
 
