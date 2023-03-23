@@ -922,12 +922,12 @@
   introLogoVisible: true
   gitHubRepoName: neptune-ai/neptune-client
   youTubeVideoId: w9S5srkfSI4
-- name: Iguazio Data Science Platform
+- name: Iguazio MLOps Platform
   buttonText: Try Iguazio
   link: 'https://www.iguazio.com/'
   category: Feature Store
   description: >-
-    The Iguazio Data Science Platform accelerates and scales development, deployment and management of your AI
+    The Iguazio MLOps Platform accelerates and scales development, deployment and management of your AI
     applications with MLOps and end-to-end automation of machine learning pipelines. The platform includes an
     online and offline feature store, fully integrated with automated model monitoring and drift detection, model serving
     and dynamic scaling capabilities, all packaged in an open and managed platform.
