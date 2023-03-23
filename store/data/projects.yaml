@@ -903,27 +903,29 @@
   link: 'https://neptune.ai/'
   category: Experiment Tracking
   description: >-
-    Neptune is a lightweight experiment logging/tracking tool that helps you
-    with your machine learning experiments.
+    Neptune is an experiment tracker and model registry that helps you
+    manage your ML model metadata.
 
 
     Features:
 
-    - Rich experiment logging and tracking capabilities
+    - Simple and flexible Python API
 
-    - Python and R clients
+    - Fast, reliable, and highly customizable UI
 
-    - Experiments dashboards, views and comparison features
+    - Support for logging multiple metadata types (text, image, video, audio, visualizations, and more)
 
-    - Team management
+    - Custom dashboards, table views, and comparison features for experiment tracking
 
-    - 25+ integrations with popular data science stack libraries
+    - Model registry functionality
 
-    - Fast, reliable UI
+    - Team management and collaboration features
+
+    - 25+ integrations with popular ML tools and libraries
   logo: /images/projects/neptune.svg
   introLogoVisible: true
   gitHubRepoName: neptune-ai/neptune-client
-  youTubeVideoId: w9S5srkfSI4
+  youTubeVideoId: mv9jxexmbBk
 - name: Iguazio MLOps Platform
   buttonText: Try Iguazio
   link: 'https://www.iguazio.com/'
