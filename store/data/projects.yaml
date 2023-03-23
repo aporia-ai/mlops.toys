@@ -126,12 +126,12 @@
   link: 'https://syndicai.co'
   category: Model Serving
   worksWellWith:
-  - [Kubernetes]
-  - [Grafana]
-  - [Nvidia Triton]
-  - [Intel OpenVINO]
-  - [MLFLow]
-  - [ClearML]
+    - [Kubernetes]
+    - [Grafana]
+    - [Nvidia Triton]
+    - [Intel OpenVINO]
+    - [MLFLow]
+    - [ClearML]
   description: >-
     Syndicai is a cloud platform that deploys, manages, and scales any trained AI
     model in minutes with no configuration & infrastructure setup.
@@ -180,7 +180,7 @@
   link: 'https://dagshub.com/'
   category: Data Versioning
   description: >-
-    **What is DagsHub?** It's like GitHub for ML. A platform where you can build DS projects, using a combo of popular open source tools like Git, 
+    **What is DagsHub?** It's like GitHub for ML. A platform where you can build DS projects, using a combo of popular open source tools like Git,
     DVC (data, model & pipeline versioning), MLflow (experiment tracking), Jenkins (Automations), and more.
 
     - **Your project in one place**: Manage your code, notebooks, data, models, pipelines, experiments, and annotations and easily connect to plugins for automation. All with open source tools and open formats.
@@ -1163,8 +1163,3 @@
   introLogoVisible: true
   gitHubRepoName: modzy
   youTubeVideoId: TluT0ZG-QRM
-
-
-
-
-
