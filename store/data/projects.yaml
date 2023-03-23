@@ -158,7 +158,7 @@
     PrimeHub, an open-source pluggable MLOps platform on the top of Kubernetes for teams of data scientists and administrators.
     PrimeHub equips enterprises with consistent yet flexible tools to develop, train, and deploy ML models at scale.
     By improving the iterative process of data science, data teams can collaborate closely and innovate fast.
-    
+
     - Cluster Computing with multi-tenancy
 
     - One-Click Notebook Environments
@@ -1127,16 +1127,16 @@
     - [TorchServe]
   description: >-
     OpenVINO™ Model Server (OVMS) is a scalable, high-performance solution for serving machine learning models optimized for Intel® architectures.
-    
-    
+
+
     - Simultanous serving of any model trained in a framework that is supported by OpenVINO
-    
+
     - The server implements gRPC and REST API framework with data serialization and deserialization using TensorFlow Serving API
-    
+
     - Uses OpenVINO™ as the inference execution provider
-    
+
     - Supports different file systems: local (e.g. NFS), Google Cloud Storage (GCS), Amazon S3, Minio or Azure Blob Storage
-    
+
   logo: /images/projects/ovms.png
   introLogoVisible: true
   gitHubRepoName: openvinotoolkit/model_server
@@ -1144,17 +1144,17 @@
 - name: Modzy
   buttonText: Try Modzy
   link: https://www.modzy.com/try-free/
-  category: Model Monitoring, Model Serving, Experiment Tracking, Explainability
+  category: Model Monitoring
   description: >-
     Modzy is an MLOps platform that accelerates the deployment, integration, and monitoring of production-ready AI.
-    
-    
+
+
     Features:
-    
+
     - Easy model deployment and monitoring for data scientists, with drift detection and explainability
-    
+
     - APIs and SDKs in Python, Java, Javascript, and Go for developers to integrate AI models into any application
-    
+
     - Support for cloud, on-premise, edge or hybrid deployments, with military-grade security
 
   logo: /images/projects/modzy.png
