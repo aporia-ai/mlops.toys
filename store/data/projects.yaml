@@ -1,3 +1,27 @@
+- name: Datature
+  worksWellWith:
+      - [Amazon S3]
+      - [Azure Blob Storage]
+      - [Edge Devices]
+  buttonText: Try Datature
+  link: 'https://www.datature.io/'
+  category: Training Orchestration
+  description: >-
+      Datature simplifies your workflow to annotate, train, visualise, and deploy computer vision models, so you can launch products faster and better.
+
+      - **Easy Data Preparation**: Offers a simplified data preparation process for machine learning tasks.
+
+      - **Powerful Image Annotation and Access Control Management**: Users can easily annotate images and manage access control.
+
+      - **Robust Model Training**: Utilizes modern machine learning libraries and frameworks without code to facilitate robust model training.
+
+      - **Advance Model Evaluation**: Users can glean insights from interactive metrics and visualizations.
+
+      - **Reliable Model Deployment via API**: Provides a secure, compliant, and scalable infrastructure for reliable model deployment with just one click.
+  logo: /images/projects/datature.svg
+  introLogoVisible: true
+  youTubeVideoId: KA4RGtnabDk
+  gitHubRepoName: datature/portal
 - name: Spell
   worksWellWith:
     - [Jupyter Notebooks]
@@ -1029,7 +1053,7 @@
   link: 'https://valohai.com/'
   category: Training Orchestration
   description: >-
-    Valohai is the MLOps platform purpose-built for ML Pioneers, giving them everything they've been missing, in one platform that just makes sense. Now they run thousands of experiments at the click of a button – creating data they trust. All while using the tools they love to build things to last. And with Valohai, ML teams easily collaborate on anything from models to metrics. 
+    Valohai is the MLOps platform purpose-built for ML Pioneers, giving them everything they've been missing, in one platform that just makes sense. Now they run thousands of experiments at the click of a button – creating data they trust. All while using the tools they love to build things to last. And with Valohai, ML teams easily collaborate on anything from models to metrics.
 
     - **Knowledge repository:** Valohai automatically tracks every asset from code and data to logs and hyperparameters, offering full lineage of how the dataset were generated and models were trained. In Valohai, all the runs are reproducible by design.
 
