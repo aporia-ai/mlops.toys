@@ -1,3 +1,24 @@
+- name: feathr
+  buttonText: Try feathr
+  link: 'https://github.com/feathr-ai/feathr'
+  category: Feature Store
+  description: >-
+    Feathr is a data and AI engineering platform that is widely used in production at LinkedIn for many years and was open sourced in 2022
+
+    - **Define data and feature transformations based on raw data sources (batch and streaming) using Pythonic APIs.
+
+    - **Register transformations by names and get transformed data(features) for various use cases including AI modeling, compliance, go-to-market and more.
+
+    - **Share transformations and data(features) across team and company.
+  logo: /images/projects/feathr.png
+  introLogoVisible: true
+  gitHubRepoName: feathr-ai/feathr
+  worksWellWith:
+    - [ Azure ]
+    - [ Databricks ]
+    - [ Edge Devices ]
+    - [ Python ]
+    - [ Spark ]
 - name: Datature
   worksWellWith:
       - [Amazon S3]
